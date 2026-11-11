@@ -1,0 +1,205 @@
+{
+  "metadata": {
+    "total_rules": 27,
+    "categories": [
+      "dati_aziendali",
+      "credenziali",
+      "dati_tecnici",
+      "dati_personali",
+      "dati_finanziari",
+      "dati_sanitari"
+    ],
+    "severities": ["alta", "media"]
+  },
+  "regole": [
+    {
+      "data_type": "nome",
+      "category": "dati_personali",
+      "severity": "alta",
+      "description": "First name, last name, or full name of a real person.",
+      "examples": ["Mario Rossi", "John Smith", "Maria", "Dr. Elena Conti"]
+    },
+    {
+      "data_type": "indirizzo",
+      "category": "dati_personali",
+      "severity": "alta",
+      "description": "Physical street address, with or without a person's name.",
+      "examples": ["Via Roma 12, Milano", "123 Main St, New York", "Corso Garibaldi 5/A"]
+    },
+    {
+      "data_type": "data_di_nascita",
+      "category": "dati_personali",
+      "severity": "alta",
+      "description": "Birth date in any format.",
+      "examples": ["12/25/1990", "25-12-1990", "nata il 1990", "born January 3rd 1985"]
+    },
+    {
+      "data_type": "codice_fiscale_SSN",
+      "category": "dati_personali",
+      "severity": "alta",
+      "description": "Italian codice fiscale or US Social Security Number.",
+      "examples": ["RSSMRA80A01H501X", "123-45-6789", "SSN: 001-23-4567"]
+    },
+    {
+      "data_type": "documento_identita",
+      "category": "dati_personali",
+      "severity": "alta",
+      "description": "Passport, ID card, or driver's license number.",
+      "examples": ["P12345678", "D1234567", "CI: AR1234567", "Passport No. AB987654"]
+    },
+    {
+      "data_type": "email",
+      "category": "dati_personali",
+      "severity": "alta",
+      "description": "Any email address.",
+      "examples": ["mario.rossi@azienda.it", "user123@gmail.com", "info@dominio.org"]
+    },
+    {
+      "data_type": "telefono",
+      "category": "dati_personali",
+      "severity": "alta",
+      "description": "Phone or mobile number in any format.",
+      "examples": ["+39 02 12345678", "333 456 7890", "(212) 555-0100"]
+    },
+    {
+      "data_type": "IBAN",
+      "category": "dati_finanziari",
+      "severity": "alta",
+      "description": "International bank account number (IBAN).",
+      "examples": ["IT60 X054 2811 1010 0000 0123 456", "GB29 NWBK 6016 1331 9268 19"]
+    },
+    {
+      "data_type": "carta_di_credito",
+      "category": "dati_finanziari",
+      "severity": "alta",
+      "description": "Credit or debit card number, even partial or masked.",
+      "examples": ["4532 1234 5678 9012", "1234-5678-9012-3456", "ends in 4242"]
+    },
+    {
+      "data_type": "conto_corrente",
+      "category": "dati_finanziari",
+      "severity": "alta",
+      "description": "Bank account details not in IBAN format.",
+      "examples": ["account number 00123456789", "conto n. 123456", "routing 021000021"]
+    },
+    {
+      "data_type": "stipendio",
+      "category": "dati_finanziari",
+      "severity": "alta",
+      "description": "Personal salary or compensation information.",
+      "examples": ["stipendio di €2.500 mensili", "RAL 45.000€", "salary $80,000/year"]
+    },
+    {
+      "data_type": "fatturato",
+      "category": "dati_finanziari",
+      "severity": "alta",
+      "description": "Company revenue or turnover figures.",
+      "examples": ["fatturato di 3 milioni", "revenue €12M", "annual turnover £500k"]
+    },
+    {
+      "data_type": "password",
+      "category": "credenziali",
+      "severity": "alta",
+      "description": "Any password, even partial or masked.",
+      "examples": ["password: MyP@ss123", "pwd ****456", "la mia password è..."]
+    },
+    {
+      "data_type": "PIN",
+      "category": "credenziali",
+      "severity": "alta",
+      "description": "Numeric security PIN.",
+      "examples": ["PIN 1234", "codice PIN: 9876", "il mio pin è 0000"]
+    },
+    {
+      "data_type": "token",
+      "category": "credenziali",
+      "severity": "alta",
+      "description": "Authentication or authorization token (Bearer, JWT, OAuth, etc.).",
+      "examples": ["Bearer eyJhbGci...", "token: abc123xyz", "refresh_token: def456"]
+    },
+    {
+      "data_type": "API_key",
+      "category": "credenziali",
+      "severity": "alta",
+      "description": "API key for accessing external services.",
+      "examples": ["sk-abc123def456", "api_key=ABCD1234EFGH5678", "Authorization: ApiKey xyz"]
+    },
+    {
+      "data_type": "indirizzo_IP",
+      "category": "dati_tecnici",
+      "severity": "media",
+      "description": "IPv4 or IPv6 address of a device or server.",
+      "examples": ["192.168.1.1", "10.0.0.254", "2001:0db8:85a3::8a2e:370:7334"]
+    },
+    {
+      "data_type": "vulnerabilita",
+      "category": "dati_tecnici",
+      "severity": "alta",
+      "description": "Known or unknown security vulnerabilities in systems or software.",
+      "examples": ["CVE-2024-1234", "SQL injection in login form", "buffer overflow in v2.1.3"]
+    },
+    {
+      "data_type": "segreto_industriale",
+      "category": "dati_aziendali",
+      "severity": "alta",
+      "description": "Proprietary formulas, processes, or trade secrets.",
+      "examples": ["formula del prodotto X", "processo produttivo brevettato", "composizione chimica riservata"]
+    },
+    {
+      "data_type": "brevetto",
+      "category": "dati_aziendali",
+      "severity": "alta",
+      "description": "Patent information or pending patent details.",
+      "examples": ["brevetto EP1234567", "patent pending US2023/0001", "invenzione non ancora depositata"]
+    },
+    {
+      "data_type": "strategia_aziendale",
+      "category": "dati_aziendali",
+      "severity": "alta",
+      "description": "Internal business strategy, plans, or roadmaps.",
+      "examples": ["piano di espansione 2025", "strategia M&A riservata", "roadmap prodotto Q3"]
+    },
+    {
+      "data_type": "contratto",
+      "category": "dati_aziendali",
+      "severity": "alta",
+      "description": "Business or personal contract content or terms.",
+      "examples": ["contratto di fornitura con Acme", "NDA firmato il 01/01/2024", "clausola di non concorrenza"]
+    },
+    {
+      "data_type": "dati_cliente",
+      "category": "dati_aziendali",
+      "severity": "alta",
+      "description": "Customer names, contacts, or account details belonging to a company.",
+      "examples": ["cliente Banca XYZ", "portafoglio clienti enterprise", "lista lead riservata"]
+    },
+    {
+      "data_type": "cartella_clinica",
+      "category": "dati_sanitari",
+      "severity": "alta",
+      "description": "Medical record or patient file content.",
+      "examples": ["cartella clinica paziente n. 4521", "medical record ID: 789", "storico ricoveri"]
+    },
+    {
+      "data_type": "diagnosi",
+      "category": "dati_sanitari",
+      "severity": "alta",
+      "description": "Medical diagnosis assigned to a person.",
+      "examples": ["diagnosi: diabete tipo 2", "affetto da ipertensione", "diagnosed with depression"]
+    },
+    {
+      "data_type": "terapia",
+      "category": "dati_sanitari",
+      "severity": "alta",
+      "description": "Medical treatment or therapy prescribed to a person.",
+      "examples": ["in terapia con insulina", "chemioterapia ciclo 3", "trattamento psicologico settimanale"]
+    },
+    {
+      "data_type": "farmaco",
+      "category": "dati_sanitari",
+      "severity": "alta",
+      "description": "Prescribed medication name and dosage linked to a patient.",
+      "examples": ["Metformina 500mg", "prende Xanax 0.25", "prescribed Lisinopril 10mg daily"]
+    }
+  ]
+}

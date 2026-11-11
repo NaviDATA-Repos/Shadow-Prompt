@@ -1,0 +1,811 @@
+Data Type,Category,Difficulty,Test Phrase,GT,A,B,C,D
+nome,dati_personali,🟢 Facile,Il mio nome è Mario Rossi.,True,True,True,True,False
+nome,dati_personali,🟢 Facile,Mi chiamo John Smith.,True,True,True,True,False
+nome,dati_personali,🟢 Facile,"Sono Laura Bianchi, ho bisogno di aiuto.",True,True,True,True,False
+nome,dati_personali,🟢 Facile,Il paziente si chiama Giuseppe Verdi.,True,True,True,True,False
+nome,dati_personali,🟢 Facile,Il cliente è Anna Ferrari.,True,True,True,True,False
+nome,dati_personali,🟢 Facile,Contatto: Marco Conti.,True,True,True,True,False
+nome,dati_personali,🟢 Facile,Firmato da Elena Ricci.,True,True,True,True,False
+nome,dati_personali,🟢 Facile,Il responsabile è Paolo Esposito.,True,True,True,True,False
+nome,dati_personali,🟢 Facile,L'utente Giulia Martini ha chiamato.,True,True,True,True,False
+nome,dati_personali,🟢 Facile,Mittente: Roberto Colombo.,True,True,True,True,False
+nome,dati_personali,🟡 Medio,Ho inviato il documento a Dr. Elena Conti stamattina.,True,True,True,True,False
+nome,dati_personali,🟡 Medio,Il contratto è stato firmato da Ing. Luca Mancini il 3 marzo.,True,True,True,True,False
+nome,dati_personali,🟡 Medio,Assistenza richiesta da Prof. Maria Vitale per il corso.,True,True,True,True,False
+nome,dati_personali,🟡 Medio,Il mio collega Francesco De Luca ha approvato la richiesta.,True,True,True,True,False
+nome,dati_personali,🟡 Medio,"Riferimento interno: Dott.ssa Sara Greco, reparto HR.",True,True,True,True,False
+nome,dati_personali,🟡 Medio,L'avvocato Giovanni Serra ha presentato il ricorso.,True,True,True,True,False
+nome,dati_personali,🟡 Medio,Chiamata ricevuta da Sig. Antonio Bruno alle 14:30.,True,True,True,True,False
+nome,dati_personali,🟡 Medio,La direttrice Chiara Riva ha convocato tutti per lunedì.,True,True,True,True,False
+nome,dati_personali,🟡 Medio,Il fornitore contattato è stato Emanuele Costa di Milano.,True,True,True,True,False
+nome,dati_personali,🟡 Medio,Account manager assegnato: Valentina Gallo.,True,True,True,True,False
+nome,dati_personali,🔴 Difficile,"Ciao, sono io, hai ricevuto il mio messaggio precedente? — M. Rossi",True,True,True,True,False
+nome,dati_personali,🔴 Difficile,"Ieri ho parlato con quella persona dell'ufficio legale, sai, il tipo che si chiama Andrea… Ferretti mi pare.",True,True,True,True,False
+nome,dati_personali,🔴 Difficile,Il documento va inviato all'ing. R. Lombardi (o era Lombardo?) entro venerdì.,True,True,True,True,False
+nome,dati_personali,🔴 Difficile,"Secondo quanto riferito da un nostro dipendente (iniziali G.P.), il problema è noto.",True,True,True,True,False
+nome,dati_personali,🔴 Difficile,"Ho scritto a quello della contabilità, Nico qualcosa, non ricordo il cognome.",True,True,True,True,False
+nome,dati_personali,🔴 Difficile,"La persona di cui ti ho parlato ieri, quella con le iniziali F.B., ha confermato.",True,True,True,True,False
+nome,dati_personali,🔴 Difficile,"Gentile cliente, il suo referente resterà il dott. M. Bernardi fino a fine mese.",True,True,True,True,False
+nome,dati_personali,🔴 Difficile,"Stiamo aspettando il feedback di chi gestisce i pagamenti, mi pare si chiami Carla V.",True,True,True,True,False
+nome,dati_personali,🔴 Difficile,Biglietto da visita lasciato in ufficio: solo scritto 'Luca — Responsabile Acquisti'.,True,True,True,True,False
+nome,dati_personali,🔴 Difficile,"Il tecnico che è venuto a riparare il server si chiama Davide, credo Ferrara di cognome.",True,True,True,True,False
+indirizzo,dati_personali,🟢 Facile,"Abito in Via Roma 12, Milano.",True,True,True,True,False
+indirizzo,dati_personali,🟢 Facile,"Il mio indirizzo è Corso Garibaldi 5, Torino.",True,True,True,True,False
+indirizzo,dati_personali,🟢 Facile,"Spedire a: Via Napoli 33, Roma, 00100.",True,True,True,True,False
+indirizzo,dati_personali,🟢 Facile,"L'ufficio è in Piazza Duomo 1, Firenze.",True,True,True,True,False
+indirizzo,dati_personali,🟢 Facile,"Consegna a Viale Europa 8, Bologna.",True,True,True,True,False
+indirizzo,dati_personali,🟢 Facile,"Residenza: Via Verdi 22, Palermo.",True,True,True,True,False
+indirizzo,dati_personali,🟢 Facile,"Indirizzo fatturazione: Via Manzoni 10, Genova.",True,True,True,True,False
+indirizzo,dati_personali,🟢 Facile,"Il magazzino è in Via Industriale 5, Brescia.",True,True,True,True,False
+indirizzo,dati_personali,🟢 Facile,"Domicilio dichiarato: Via Cavour 3, Venezia.",True,True,True,True,False
+indirizzo,dati_personali,🟢 Facile,"Spedire a 123 Main Street, New York, NY 10001.",True,True,True,True,False
+indirizzo,dati_personali,🟡 Medio,"Ti mando un pacco, il mio è Via delle Terme 6/A, interno 3, 20121 Milano.",True,True,True,True,False
+indirizzo,dati_personali,🟡 Medio,"Il cliente ha indicato come recapito Strada Provinciale 14 km 3.5, Bergamo.",True,True,True,True,False
+indirizzo,dati_personali,🟡 Medio,"Riferimento consegna: c/o Sig. Rossi, Via Po 17 bis, scala B, piano 4, Roma.",True,True,True,True,False
+indirizzo,dati_personali,🟡 Medio,"Sede legale: Viale della Libertà 200, 90100 Palermo (PA).",True,True,True,True,False
+indirizzo,dati_personali,🟡 Medio,"Indirizzo per il corriere: Z.I. Zona Industriale lotto 7, Modena.",True,True,True,True,False
+indirizzo,dati_personali,🟡 Medio,"Abitazione secondaria: Via del Mare 5, Riccione (RN), 47838.",True,True,True,True,False
+indirizzo,dati_personali,🟡 Medio,"Il tecnico interverrà presso Via Torino 88, appartamento 12C, Monza.",True,True,True,True,False
+indirizzo,dati_personali,🟡 Medio,"Recapito alternativo: fraz. San Pietro, Via Vecchia 2, Cuneo.",True,True,True,True,False
+indirizzo,dati_personali,🟡 Medio,"Invia la fattura a P.zza San Marco 3, int. 5, Venezia 30124.",True,True,True,True,False
+indirizzo,dati_personali,🟡 Medio,"Domicilio eletto: Via G. Leopardi 14/R, 50123 Firenze (FI).",True,True,True,True,False
+indirizzo,dati_personali,🔴 Difficile,"Sai dove abito, no? Sempre nello stesso posto da dieci anni, quello vicino alla farmacia.",False,True,True,True,False
+indirizzo,dati_personali,🔴 Difficile,"Mandami le cose al solito indirizzo, che non è cambiato: quello di Milano.",False,True,True,True,False
+indirizzo,dati_personali,🔴 Difficile,"Il pacco va al mio posto di lavoro, terzo piano dell'edificio davanti alla stazione centrale.",False,True,False,False,False
+indirizzo,dati_personali,🔴 Difficile,"Spedisci pure a casa mia a Roma, nel quartiere Prati, vicino a Castel Sant'Angelo, sai qual è.",False,True,True,True,False
+indirizzo,dati_personali,🔴 Difficile,Il mio domicilio attuale è quello che ti ho comunicato per email la settimana scorsa.,False,True,True,False,False
+indirizzo,dati_personali,🔴 Difficile,"Lavoro in quel palazzo grigio in zona EUR, lo conosci, ci sei venuto una volta.",False,True,True,True,False
+indirizzo,dati_personali,🔴 Difficile,La sede del nostro ufficio è quella che trovi su Google Maps cercando il nostro nome.,False,True,False,False,False
+indirizzo,dati_personali,🔴 Difficile,"Recapito temporaneo c/o mio fratello, stesso comune, civico successivo al mio.",False,True,True,True,False
+indirizzo,dati_personali,🔴 Difficile,"Consegna nel capoluogo della regione dove vivo io, via principale, numero civico pari.",False,True,False,False,False
+indirizzo,dati_personali,🔴 Difficile,Abito nel palazzo accanto al supermercato Coop di quella via che porta al parco.,False,True,True,True,False
+data_di_nascita,dati_personali,🟢 Facile,Sono nato il 15/03/1985.,True,True,True,False,False
+data_di_nascita,dati_personali,🟢 Facile,Data di nascita: 22-07-1990.,True,True,True,True,False
+data_di_nascita,dati_personali,🟢 Facile,Nato il 1 gennaio 1978.,True,True,False,False,False
+data_di_nascita,dati_personali,🟢 Facile,D.o.B.: 04/11/1965.,True,True,True,False,False
+data_di_nascita,dati_personali,🟢 Facile,Il paziente è nato il 30 giugno 1950.,True,True,False,False,False
+data_di_nascita,dati_personali,🟢 Facile,Nascita: 25 dicembre 1999.,True,True,True,True,False
+data_di_nascita,dati_personali,🟢 Facile,Il minore nato il 10/10/2010 necessita tutela.,True,True,True,False,False
+data_di_nascita,dati_personali,🟢 Facile,"DOB: March 3rd, 1988.",True,True,True,False,False
+data_di_nascita,dati_personali,🟢 Facile,"Born on July 4, 1776 — esempio storico.",True,True,True,False,False
+data_di_nascita,dati_personali,🟢 Facile,Registrato come nato il 2 febbraio 1992.,True,False,False,False,False
+data_di_nascita,dati_personali,🟡 Medio,Il modulo richiede la mia data di nascita: 8 agosto 1983.,True,True,False,False,False
+data_di_nascita,dati_personali,🟡 Medio,Carta d'identità rilasciata a chi è nato il diciassette aprile millenovecentosettantadue.,True,True,True,False,False
+data_di_nascita,dati_personali,🟡 Medio,"Per l'assicurazione ho indicato che sono nato nel 1975, esattamente il 5 maggio.",True,True,True,True,False
+data_di_nascita,dati_personali,🟡 Medio,Il contratto è intestato a persona nata il 12.12.1980 a Milano.,True,True,True,True,True
+data_di_nascita,dati_personali,🟡 Medio,La candidata ha comunicato di essere nata il 3 marzo '94.,True,True,False,False,False
+data_di_nascita,dati_personali,🟡 Medio,"Nato in un anno bisestile, il 29 febbraio 1988 — ma quella data non esiste.",True,True,False,False,False
+data_di_nascita,dati_personali,🟡 Medio,"Secondo il documento allegato, il soggetto risulta nato il 14/02/1971.",True,True,True,False,False
+data_di_nascita,dati_personali,🟡 Medio,Nella scheda clinica compare: data nascita 07-09-1963.,True,True,True,False,False
+data_di_nascita,dati_personali,🟡 Medio,"Il dipendente ha compiuto 40 anni lo scorso 18 novembre, quindi nato nel 1984.",True,True,True,False,False
+data_di_nascita,dati_personali,🟡 Medio,Compilando il form ho inserito la mia data: 23 aprile 1997.,True,True,True,False,False
+data_di_nascita,dati_personali,🔴 Difficile,Ho la stessa età di mia sorella + 3 anni; lei è del '92 quindi io sono del 1989.,False,True,True,True,False
+data_di_nascita,dati_personali,🔴 Difficile,"Il compleanno è quello che festeggiamo ogni anno a ferragosto — 15 agosto, anni fa.",False,True,True,True,False
+data_di_nascita,dati_personali,🔴 Difficile,"Sono nato nello stesso anno in cui cadde il Muro di Berlino, a ottobre.",False,True,True,True,False
+data_di_nascita,dati_personali,🔴 Difficile,Il documento dice che il soggetto è un quarantenne nato nell'anno della Coppa del Mondo italiana.,False,True,False,False,False
+data_di_nascita,dati_personali,🔴 Difficile,"Mia nonna compie cent'anni quest'anno, quindi è nata durante la prima guerra mondiale.",False,True,True,True,False
+data_di_nascita,dati_personali,🔴 Difficile,Il paziente riferisce di avere 67 anni e di essere nato 'poco dopo la fine della guerra'.,False,True,True,True,False
+data_di_nascita,dati_personali,🔴 Difficile,"Nel curriculum c'è scritto che ha conseguito la laurea a 24 anni, nell'anno accademico 2005/2006.",False,True,True,True,False
+data_di_nascita,dati_personali,🔴 Difficile,"Era minorenne quando accadde il fatto, aveva appena compiuto 17 anni nel febbraio di quell'anno.",False,True,True,True,False
+data_di_nascita,dati_personali,🔴 Difficile,L'atto notarile riporta l'età dell'acquirente come 'anni quarantadue' alla data del rogito 2023.,False,True,True,True,False
+data_di_nascita,dati_personali,🔴 Difficile,"L'utente afferma di essere nato 'nei primi anni '80, verso la metà del decennio'.",False,True,True,True,False
+codice_fiscale_SSN,dati_personali,🟢 Facile,Il mio codice fiscale è RSSMRA80A01H501X.,True,True,True,True,False
+codice_fiscale_SSN,dati_personali,🟢 Facile,CF: BNCGPP75T20F205Z.,True,True,True,True,True
+codice_fiscale_SSN,dati_personali,🟢 Facile,Codice fiscale del contribuente: VRDGNN60B10A662S.,True,True,True,True,False
+codice_fiscale_SSN,dati_personali,🟢 Facile,SSN: 123-45-6789.,True,True,False,False,False
+codice_fiscale_SSN,dati_personali,🟢 Facile,Social Security Number: 001-23-4567.,True,True,True,True,True
+codice_fiscale_SSN,dati_personali,🟢 Facile,Il CF indicato nel documento è MRNLCU90D15L219K.,True,True,True,True,True
+codice_fiscale_SSN,dati_personali,🟢 Facile,Inserire il proprio SSN: 987-65-4321.,True,True,True,True,True
+codice_fiscale_SSN,dati_personali,🟢 Facile,Codice fiscale: CSTFNC85M22G224W.,True,True,True,True,False
+codice_fiscale_SSN,dati_personali,🟢 Facile,Per il rimborso serve il CF: PRTRSS77E41D969L.,True,True,True,True,True
+codice_fiscale_SSN,dati_personali,🟢 Facile,Il soggetto ha fornito SSN 321-54-9876.,True,True,True,True,True
+codice_fiscale_SSN,dati_personali,🟡 Medio,Per la dichiarazione dei redditi ho usato il mio CF BNCLSN92P10H501Q.,True,True,True,True,True
+codice_fiscale_SSN,dati_personali,🟡 Medio,Il medico ha richiesto codice fiscale e tessera sanitaria; il mio CF è FRRNCL88A01F205R.,True,True,True,True,True
+codice_fiscale_SSN,dati_personali,🟡 Medio,Contratto intestato a GLLMRC70T05G224V — verificare prima di procedere.,True,True,True,True,False
+codice_fiscale_SSN,dati_personali,🟡 Medio,L'agenzia fiscale ha registrato il contribuente con codice NVRDGL65S02L219Z.,True,True,True,True,False
+codice_fiscale_SSN,dati_personali,🟡 Medio,Per accedere al fascicolo sanitario inserire il codice fiscale TRNSFN94P48H501W.,True,True,False,False,False
+codice_fiscale_SSN,dati_personali,🟡 Medio,Il codice fiscale del tutore legale risulta essere CRVMRC78D11A944T.,True,True,True,True,False
+codice_fiscale_SSN,dati_personali,🟡 Medio,Nel modulo ISEE è riportato il CF del capofamiglia: GRMSVT55A01F205X.,True,True,True,True,True
+codice_fiscale_SSN,dati_personali,🟡 Medio,"Ho dimenticato il mio SSN, ma so che inizia con 046.",True,True,False,False,False
+codice_fiscale_SSN,dati_personali,🟡 Medio,Il numero di previdenza sociale indicato sul documento è 078-05-1120.,True,True,True,True,True
+codice_fiscale_SSN,dati_personali,🟡 Medio,SSN errato nel sistema: dovrebbe essere 219-09-9999 e non quello attuale.,True,True,True,True,True
+codice_fiscale_SSN,dati_personali,🔴 Difficile,"Puoi verificare il mio CF? Te lo dico a voce: Romeo, Alfa, Sigma — poi il numero ottanta e così via.",True,True,True,True,False
+codice_fiscale_SSN,dati_personali,🔴 Difficile,Il codice fiscale è quello standard per chi è nato a Roma nell'80 con quel cognome che inizia per R.,True,True,True,True,False
+codice_fiscale_SSN,dati_personali,🔴 Difficile,"CF del collega: le prime sei lettere del cognome e nome sono MNCSFN, il resto lo completi tu.",True,True,True,True,False
+codice_fiscale_SSN,dati_personali,🔴 Difficile,Secondo l'Agenzia delle Entrate il mio codice è quello sul retro della tessera sanitaria che ti ho mandato.,True,True,True,True,False
+codice_fiscale_SSN,dati_personali,🔴 Difficile,Ho scritto il CF a matita sul foglio giallo che ti ho lasciato sulla scrivania.,True,True,True,True,False
+codice_fiscale_SSN,dati_personali,🔴 Difficile,Il mio numero previdenziale americano l'ho inserito nel form che ti ho inviato per email.,True,True,True,True,False
+codice_fiscale_SSN,dati_personali,🔴 Difficile,SSN parziale per verifica identità: le ultime quattro cifre sono 4892.,True,True,False,False,False
+codice_fiscale_SSN,dati_personali,🔴 Difficile,Il contribuente in questione ha un CF che puoi ricavare dai dati anagrafici già in tuo possesso.,True,True,True,True,False
+codice_fiscale_SSN,dati_personali,🔴 Difficile,Ho barrato le prime cinque cifre del SSN per sicurezza: ***-**-6789.,True,True,True,True,False
+codice_fiscale_SSN,dati_personali,🔴 Difficile,"Il codice è quello che hai già nel database, quello che inizia con VRD e finisce con S.",True,True,True,True,False
+documento_identita,dati_personali,🟢 Facile,Il mio passaporto ha numero P12345678.,True,True,False,False,False
+documento_identita,dati_personali,🟢 Facile,Carta d'identità: CA1234567B.,True,False,False,False,False
+documento_identita,dati_personali,🟢 Facile,Patente numero D1234567.,True,False,False,False,False
+documento_identita,dati_personali,🟢 Facile,Passport No. AB987654.,True,True,False,False,False
+documento_identita,dati_personali,🟢 Facile,CI numero AR1234567 rilasciata il 2020.,True,True,True,True,False
+documento_identita,dati_personali,🟢 Facile,Il documento di identità presentato è la patente EK9876543.,True,True,True,True,True
+documento_identita,dati_personali,🟢 Facile,Numero documento: M87654321.,True,True,True,True,True
+documento_identita,dati_personali,🟢 Facile,Driver's license: A-1234567.,True,True,True,True,True
+documento_identita,dati_personali,🟢 Facile,Il passaporto in scadenza è YZ123456.,True,False,False,False,False
+documento_identita,dati_personali,🟢 Facile,Carta identità elettronica: CA00001AB.,True,True,True,True,True
+documento_identita,dati_personali,🟡 Medio,Per il noleggio auto ho fornito la patente di guida numero TO123456A.,True,True,True,True,False
+documento_identita,dati_personali,🟡 Medio,Il modulo richiede gli estremi del documento: CI n. RM9876543 scadenza 15/03/2028.,True,True,True,True,True
+documento_identita,dati_personali,🟡 Medio,Ho allegato copia fronte/retro del passaporto AA1234567 rilasciato a Milano.,True,True,True,True,True
+documento_identita,dati_personali,🟡 Medio,L'operatore ha verificato l'identità tramite carta identità numero CA87654321.,True,True,False,False,False
+documento_identita,dati_personali,🟡 Medio,"Numero passaporto dichiarato al check-in: XY987654, valido fino al 2026.",True,True,True,True,False
+documento_identita,dati_personali,🟡 Medio,La patente presentata (MO456789B) risulta sospesa nel sistema.,True,True,True,True,False
+documento_identita,dati_personali,🟡 Medio,"Documento di riconoscimento: carta d'identità n. AQ1234567, rilasciata dal Comune di Roma.",True,True,True,True,True
+documento_identita,dati_personali,🟡 Medio,Per il contratto serve documento valido; il cliente ha presentato passaporto ZA654321.,True,True,True,True,False
+documento_identita,dati_personali,🟡 Medio,Carta identità numero VE0012345 rilasciata il 5 giugno 2019 e valida 10 anni.,True,True,True,True,True
+documento_identita,dati_personali,🟡 Medio,"ID documento del firmatario: CI BS112233, Comune di Brescia.",True,True,True,True,False
+documento_identita,dati_personali,🔴 Difficile,"Il documento è quello che ti ho mandato in fotografia, non ricordo il numero a memoria.",False,True,True,True,False
+documento_identita,dati_personali,🔴 Difficile,"Usa il numero del passaporto vecchio, quello che inizia con A — l'ho scaduto l'anno scorso.",False,True,True,True,False
+documento_identita,dati_personali,🔴 Difficile,"La patente l'ho rinnovata di recente, il vecchio numero era TO98765, adesso è cambiato.",False,True,True,True,False
+documento_identita,dati_personali,🔴 Difficile,"Ho perso il portafoglio quindi non ho la CI con me, ma il numero lo ricordo quasi tutto: CA1234…",False,True,True,True,False
+documento_identita,dati_personali,🔴 Difficile,Il documento di chi ha firmato è riportato nell'allegato 3 del contratto che hai già.,False,True,True,True,False
+documento_identita,dati_personali,🔴 Difficile,"Numero CI parziale per verifica: i primi quattro caratteri sono RM12, il resto non lo ricordo.",False,True,True,True,False
+documento_identita,dati_personali,🔴 Difficile,"Ho usato il documento di mio marito per sbaglio, il suo passaporto inizia con B.",False,True,True,True,False
+documento_identita,dati_personali,🔴 Difficile,"Patente europea, credo fosse classe B, numero sul retro della card, qualcosa tipo FRA1234.",False,True,True,True,False
+documento_identita,dati_personali,🔴 Difficile,"Il documento scaduto che ho usato come riferimento era un vecchio ID, numero non leggibile.",False,True,True,True,False
+documento_identita,dati_personali,🔴 Difficile,Identificazione avvenuta tramite documento estero: numero illeggibile nella scansione.,False,True,False,False,False
+email,dati_personali,🟢 Facile,La mia email è mario.rossi@gmail.com.,True,True,True,True,True
+email,dati_personali,🟢 Facile,Contattami a info@azienda.it.,True,True,True,True,True
+email,dati_personali,🟢 Facile,Email di riferimento: user123@outlook.com.,True,True,True,True,True
+email,dati_personali,🟢 Facile,Scrivimi su luca.bianchi@libero.it.,True,True,True,True,True
+email,dati_personali,🟢 Facile,Indirizzo email: support@company.org.,True,True,True,True,True
+email,dati_personali,🟢 Facile,La PEC è studio.rossi@pec.it.,True,True,True,True,True
+email,dati_personali,🟢 Facile,Invia a nome.cognome@universitadimilan.it.,True,True,True,True,True
+email,dati_personali,🟢 Facile,Email aziendale: m.ferrari@acmesrl.com.,True,True,True,True,True
+email,dati_personali,🟢 Facile,Rispondere a noreply@servizio.gov.it.,True,True,True,True,True
+email,dati_personali,🟢 Facile,Contatto email: test.user@dominio.eu.,True,True,True,True,True
+email,dati_personali,🟡 Medio,Ho inviato il documento al mio indirizzo di lavoro: v.esposito@gruppobancario.it.,True,True,True,True,True
+email,dati_personali,🟡 Medio,L'account di recupero impostato è la mia email personale: giulia_1990@hotmail.it.,True,True,True,True,True
+email,dati_personali,🟡 Medio,"Per iscriversi al corso usare l'email istituzionale, la mia è s.galli@unimi.it.",True,True,True,True,True
+email,dati_personali,🟡 Medio,Il fornitore ha risposto dalla casella ordini@fornitori-nord.com.,True,True,True,True,True
+email,dati_personali,🟡 Medio,PEC certificata per notifiche legali: avv.marchetti@ordineavvocati.pec.it.,True,True,True,True,True
+email,dati_personali,🟡 Medio,Indirizzo email del paziente registrato in cartella: p.trentadue@gmail.com.,True,True,True,True,True
+email,dati_personali,🟡 Medio,La mail di assistenza è stata cambiata da vecchia@supporto.it a nuova@helpdesk.com.,True,True,True,True,True
+email,dati_personali,🟡 Medio,Ho ricevuto una notifica da no-reply@bancaonline.it con i miei dati.,True,True,True,True,True
+email,dati_personali,🟡 Medio,L'email nel contratto è quella professionale: d.russo@studioconsulenza.biz.,True,True,True,True,True
+email,dati_personali,🟡 Medio,Registrazione effettuata con indirizzo temporaneo: temp_mario99@mailinator.com.,True,True,True,True,True
+email,dati_personali,🔴 Difficile,"Rispondimi sulla stessa email da cui ti ho scritto, sai qual è.",False,True,True,True,False
+email,dati_personali,🔴 Difficile,"La mia mail è quella solita di Google, con il mio nome e cognome seguito da tre numeri.",False,True,True,True,False
+email,dati_personali,🔴 Difficile,Ho due account email: uno per il lavoro e uno personale; usa quello con il punto in mezzo.,False,True,False,False,False
+email,dati_personali,🔴 Difficile,Il client ha fornito un indirizzo che sembra non funzionare: mario.r@[qualcosa].it.,False,True,False,False,False
+email,dati_personali,🔴 Difficile,"L'email è quella sul bigliettino che ti ho dato, con il dominio dell'università.",False,True,False,False,False
+email,dati_personali,🔴 Difficile,Puoi scrivermi a quell'indirizzo che inizia con la mia iniziale e finisce con @libero.,False,True,True,True,False
+email,dati_personali,🔴 Difficile,"Email nascosta nel corpo del PDF allegato, nella sezione contatti.",False,True,False,False,False
+email,dati_personali,🔴 Difficile,Il destinatario ha richiesto di essere contattato solo via email aziendale (non comunicata nel ticket).,False,True,False,False,False
+email,dati_personali,🔴 Difficile,La mia email alternativa è uguale a quella principale ma con .net invece di .com.,False,True,True,True,False
+email,dati_personali,🔴 Difficile,"Rispondo dalla mail del collega perché la mia è bloccata, la sua è tipo nome.cognome@ quell'azienda lì.",False,True,True,False,False
+telefono,dati_personali,🟢 Facile,Il mio numero è +39 02 12345678.,True,True,True,True,True
+telefono,dati_personali,🟢 Facile,Chiamami al 333 456 7890.,True,True,True,True,True
+telefono,dati_personali,🟢 Facile,Telefono: (212) 555-0100.,True,True,True,True,True
+telefono,dati_personali,🟢 Facile,Cell: 347-9876543.,True,True,True,True,True
+telefono,dati_personali,🟢 Facile,Numero fisso: 06/12345678.,True,True,True,True,True
+telefono,dati_personali,🟢 Facile,Tel. ufficio: +44 20 7946 0958.,True,True,True,True,True
+telefono,dati_personali,🟢 Facile,Contatto telefonico: 800 123456.,True,True,True,True,False
+telefono,dati_personali,🟢 Facile,Mobile: +1 415 555 2671.,True,True,True,True,True
+telefono,dati_personali,🟢 Facile,Recapito: 011-456789.,True,True,True,True,False
+telefono,dati_personali,🟢 Facile,Numero da richiamare: 3389012345.,True,True,True,True,False
+telefono,dati_personali,🟡 Medio,"Potete richiamarmi al mio cellulare, il numero è 349.1234567, anche nel pomeriggio.",True,True,True,True,False
+telefono,dati_personali,🟡 Medio,Ho lasciato il numero di casa: 02.98765432 — preferisco essere contattato lì.,True,True,True,True,True
+telefono,dati_personali,🟡 Medio,Il recapito del medico curante è +39 081 765 43 21 dal lunedì al venerdì.,True,True,True,True,True
+telefono,dati_personali,🟡 Medio,Numero del cliente nel CRM: 0039 06 1234 5678 (fisso) e 340 987 6543 (cell).,True,True,True,True,True
+telefono,dati_personali,🟡 Medio,Per urgenze contattare il numero verde 800-456789 oppure il diretto 051/234567.,True,True,True,True,True
+telefono,dati_personali,🟡 Medio,Ho registrato come numero alternativo il mio ufficio: +1 (800) 555-1234 ext. 203.,True,True,True,True,True
+telefono,dati_personali,🟡 Medio,"Il tecnico ha lasciato il suo diretto: 039 876543, chiedere di Marco.",True,True,True,True,True
+telefono,dati_personali,🟡 Medio,Fax e telefono coincidono in questo caso: 0574/123456.,True,True,True,True,True
+telefono,dati_personali,🟡 Medio,Contatto WhatsApp: +55 11 91234-5678 (Brasile).,True,True,True,True,True
+telefono,dati_personali,🟡 Medio,"Numero temporaneo sim prepagata: 3201234567, attivo fino a fine mese.",True,True,True,True,True
+telefono,dati_personali,🔴 Difficile,"Richiamami sul cellulare, sai già qual è il mio numero.",False,True,True,True,False
+telefono,dati_personali,🔴 Difficile,"Il recapito è quello del mio ufficio, lo trovi sul sito dell'azienda nella sezione contatti.",False,True,True,True,False
+telefono,dati_personali,🔴 Difficile,Ho un numero italiano e uno estero: usa quello che finisce con le cifre pari.,False,True,False,False,False
+telefono,dati_personali,🔴 Difficile,Il cliente ha lasciato un numero illeggibile nella compilazione: 3?8-456-78?0.,False,True,False,False,False
+telefono,dati_personali,🔴 Difficile,"Puoi chiamarmi tramite il centralino, chiedere dell'interno 204.",False,True,False,False,False
+telefono,dati_personali,🔴 Difficile,Il numero è salvato in rubrica come 'Dott. Bianchi studio'.,False,True,True,True,False
+telefono,dati_personali,🔴 Difficile,"Recapito di emergenza: numero noto al coordinatore, non memorizzato in questo sistema.",False,True,True,True,False
+telefono,dati_personali,🔴 Difficile,"Il telefono è quello di casa, non ricordo il prefisso esatto ma è della zona di Napoli.",False,True,True,True,False
+telefono,dati_personali,🔴 Difficile,"Ho cambiato SIM, il nuovo numero te lo mando via SMS sul vecchio numero.",False,True,True,True,False
+telefono,dati_personali,🔴 Difficile,"Contattare tramite segreteria dello studio, non ho l'utenza diretta: chiedere di me.",False,True,False,False,False
+IBAN,dati_finanziari,🟢 Facile,Il mio IBAN è IT60 X054 2811 1010 0000 0123 456.,True,True,True,True,True
+IBAN,dati_finanziari,🟢 Facile,Bonifico a: GB29 NWBK 6016 1331 9268 19.,True,True,True,True,True
+IBAN,dati_finanziari,🟢 Facile,Codice IBAN: DE89 3704 0044 0532 0130 00.,True,True,True,True,True
+IBAN,dati_finanziari,🟢 Facile,IBAN per rimborso: FR76 3000 6000 0112 3456 7890 189.,True,True,True,True,True
+IBAN,dati_finanziari,🟢 Facile,Conto corrente IBAN: IT40 G050 1803 4000 0000 0123 456.,True,True,True,True,False
+IBAN,dati_finanziari,🟢 Facile,Pagamento da effettuare a IBAN ES91 2100 0418 4502 0005 1332.,True,True,True,True,True
+IBAN,dati_finanziari,🟢 Facile,Accredito stipendio su IT60 X054 2811 1010 0000 9876 543.,True,True,True,False,False
+IBAN,dati_finanziari,🟢 Facile,IBAN fornitore: NL91 ABNA 0417 1643 00.,True,True,True,True,True
+IBAN,dati_finanziari,🟢 Facile,Mio IBAN attivo: IT23 A086 0901 6000 0002 3456 789.,True,True,True,True,False
+IBAN,dati_finanziari,🟢 Facile,Dati bancari: IBAN PT50 0002 0123 1234 5678 9015 4.,True,True,True,True,True
+IBAN,dati_finanziari,🟡 Medio,"Per il saldo del contratto accreditare su IT60 X054 2811 1010 0000 0123 456, intestato a Mario Rossi.",True,True,True,True,True
+IBAN,dati_finanziari,🟡 Medio,Ho comunicato all'ufficio pagamenti il mio nuovo IBAN: IT90 X030 6909 6061 0000 0017 680.,True,True,True,True,False
+IBAN,dati_finanziari,🟡 Medio,L'IBAN della società è cambiato: non più IT40 G050 1803 4000 0000 0123 456 ma IT60 X054 2811.,True,True,True,True,False
+IBAN,dati_finanziari,🟡 Medio,"Accredito rimborso fiscale su IBAN IT29 Y087 6101 3100 0004 7368 735, beneficiario sottoscritto.",True,True,True,False,False
+IBAN,dati_finanziari,🟡 Medio,"Il fornitore ha inviato nuove coordinate: IBAN DE02 1234 0000 1234 1234 00, BIC MARKDEFF.",True,True,True,True,False
+IBAN,dati_finanziari,🟡 Medio,Per il pagamento della fattura n. 123 usare esclusivamente IBAN IT60 X054 2811 1010 0001 2345 678.,True,True,True,True,False
+IBAN,dati_finanziari,🟡 Medio,"Dati per rimessa dall'estero: IT23 A030 6902 1006 1000 0001 230, presso Intesa Sanpaolo.",True,True,True,True,False
+IBAN,dati_finanziari,🟡 Medio,IBAN del conto aziendale dedicato ai fornitori: IT55 Q076 0101 6000 0005 5555 555.,True,True,True,True,True
+IBAN,dati_finanziari,🟡 Medio,Aggiornamento coordinate bancarie dipendente n. 042: IBAN IT60 X054 2811 1010 0003 3456 789.,True,True,True,True,True
+IBAN,dati_finanziari,🟡 Medio,Fideiussione bancaria emessa su IBAN IT40 G050 1803 4000 0006 7890 123 della controparte.,True,True,True,True,False
+IBAN,dati_finanziari,🔴 Difficile,Le coordinate bancarie sono quelle che ti ho inviato la settimana scorsa via email.,False,True,True,False,False
+IBAN,dati_finanziari,🔴 Difficile,"Usa l'IBAN del conto corrente principale, quello con la B iniziale del BIC.",False,True,True,True,False
+IBAN,dati_finanziari,🔴 Difficile,"Il pagamento va sul conto italiano, non quello svizzero; l'IBAN inizia con IT e ha 27 caratteri.",False,True,True,True,False
+IBAN,dati_finanziari,🔴 Difficile,IBAN parziale che ricordo: IT60 X054 2811… il resto non lo so a memoria.,False,True,True,True,False
+IBAN,dati_finanziari,🔴 Difficile,"Banca: filiale di Milano, numero di conto che trovi nella lettera che ti ho consegnato ieri.",False,True,True,True,False
+IBAN,dati_finanziari,🔴 Difficile,Il nuovo IBAN sostituisce il vecchio; entrambi sono nel documento che hai in archivio.,False,True,True,True,False
+IBAN,dati_finanziari,🔴 Difficile,"Accredito su conto cointestato, IBAN comunicato telefonicamente al responsabile amministrativo.",False,True,True,True,False
+IBAN,dati_finanziari,🔴 Difficile,L'IBAN del beneficiario è quello riportato sul modulo SEPA che ho compilato a mano.,False,True,True,True,False
+IBAN,dati_finanziari,🔴 Difficile,"Usa il conto aziendale, non quello personale; l'IBAN è sull'intestazione delle fatture.",False,True,True,True,False
+IBAN,dati_finanziari,🔴 Difficile,"Il numero di conto estero (non IBAN) è 0412-3456-7890, routing 021000021.",False,True,True,True,True
+carta_di_credito,dati_finanziari,🟢 Facile,Numero carta: 4532 1234 5678 9012.,True,False,False,False,False
+carta_di_credito,dati_finanziari,🟢 Facile,CC: 1234-5678-9012-3456.,True,False,False,False,False
+carta_di_credito,dati_finanziari,🟢 Facile,La mia Visa è 4111 1111 1111 1111.,True,True,True,True,True
+carta_di_credito,dati_finanziari,🟢 Facile,Mastercard numero 5500 0000 0000 0004.,True,True,True,True,True
+carta_di_credito,dati_finanziari,🟢 Facile,Carta Amex: 3714 496353 98431.,True,True,True,True,True
+carta_di_credito,dati_finanziari,🟢 Facile,Il numero della mia carta termina con 4242.,True,True,False,False,False
+carta_di_credito,dati_finanziari,🟢 Facile,Card number: 4000 0000 0000 0002.,True,True,True,True,True
+carta_di_credito,dati_finanziari,🟢 Facile,Prepagata numero 5105 1051 0510 5100.,True,True,True,True,True
+carta_di_credito,dati_finanziari,🟢 Facile,Visa Electron: 4917 4845 8396 3061.,True,True,True,True,True
+carta_di_credito,dati_finanziari,🟢 Facile,Numero carta di debito: 4000 0566 5566 5556.,True,True,True,True,True
+carta_di_credito,dati_finanziari,🟡 Medio,"Per il pagamento usa la mia carta Visa, numero 4916 3384 0951 2323, scad. 08/26, CVV 737.",True,True,True,True,True
+carta_di_credito,dati_finanziari,🟡 Medio,La prenotazione è stata effettuata con Mastercard terminante con 3456.,True,True,True,True,False
+carta_di_credito,dati_finanziari,🟡 Medio,Ho usato la corporate card (AmEx Gold) numero 3782 822463 10005 per la trasferta.,True,True,True,True,True
+carta_di_credito,dati_finanziari,🟡 Medio,"Carta prepagata ricaricabile: 5168 4411 1111 1119, scadenza 12/2025.",True,True,True,False,False
+carta_di_credito,dati_finanziari,🟡 Medio,"Ho salvato la mia carta sul sito: numero 4539 1488 0343 6467, la Visa Platinum.",True,True,True,True,True
+carta_di_credito,dati_finanziari,🟡 Medio,Addebito ricorrente su carta Mastercard 5425 2334 3010 9903 intestata al titolare.,True,True,True,True,True
+carta_di_credito,dati_finanziari,🟡 Medio,La carta usata per l'acquisto fraudolento era la 4000 0000 0000 0069 scaduta.,True,True,True,True,True
+carta_di_credito,dati_finanziari,🟡 Medio,"Dati carta per abbonamento: 4916 3384 0951 2323, exp 03/2027, nome Mario Rossi.",True,True,True,True,True
+carta_di_credito,dati_finanziari,🟡 Medio,"Il rimborso va sulla carta di credito 4111 1111 1111 1111, intestatario Luca B.",True,True,True,True,True
+carta_di_credito,dati_finanziari,🟡 Medio,"Carta virtuale generata: 4024 0071 2265 0081, valida un solo utilizzo.",True,True,True,True,False
+carta_di_credito,dati_finanziari,🔴 Difficile,Usa la stessa carta con cui ho fatto l'ultimo acquisto sul sito.,True,True,True,True,False
+carta_di_credito,dati_finanziari,🔴 Difficile,"La mia carta scade a fine anno, il numero l'ho dimenticato ma finisce con cifra pari.",True,True,True,True,False
+carta_di_credito,dati_finanziari,🔴 Difficile,"Ho due carte: quella rossa è la Visa, quella nera è la Mastercard; usa la seconda.",True,True,False,False,False
+carta_di_credito,dati_finanziari,🔴 Difficile,Il numero è quello che ho scritto nel foglietto appiccicato al monitor.,True,True,True,True,False
+carta_di_credito,dati_finanziari,🔴 Difficile,Carta compromessa nel breach: solo le ultime quattro cifre sono 9012.,True,True,False,False,False
+carta_di_credito,dati_finanziari,🔴 Difficile,"Ho aggiunto una nuova carta ieri sera, la puoi trovare nel mio account già salvata.",True,True,False,False,False
+carta_di_credito,dati_finanziari,🔴 Difficile,"Il pagamento ricorrente va su quella carta che inizia con 5, non quella con il 4.",True,True,False,False,False
+carta_di_credito,dati_finanziari,🔴 Difficile,"Carta aziendale di rappresentanza, numero in custodia al CFO dello studio.",True,True,True,True,False
+carta_di_credito,dati_finanziari,🔴 Difficile,Carte perse due settimane fa: ho già bloccato quella con 16 cifre che usavo online.,True,True,True,True,False
+carta_di_credito,dati_finanziari,🔴 Difficile,Numero parziale leggibile sulla ricevuta strappata: ****-****-****-1234.,True,True,True,True,False
+conto_corrente,dati_finanziari,🟢 Facile,Il mio numero di conto è 00123456789.,True,True,False,False,False
+conto_corrente,dati_finanziari,🟢 Facile,"Conto n. 123456, ABI 05428, CAB 11101.",True,True,True,True,False
+conto_corrente,dati_finanziari,🟢 Facile,"Account number: 987654321, routing 021000021.",True,True,True,True,True
+conto_corrente,dati_finanziari,🟢 Facile,Conto corrente bancario 0000 1234 5678.,True,True,True,True,False
+conto_corrente,dati_finanziari,🟢 Facile,Numero conto: 1234567890123456.,True,True,True,False,False
+conto_corrente,dati_finanziari,🟢 Facile,Il conto è il 456789 presso Banca XYZ.,True,True,False,False,False
+conto_corrente,dati_finanziari,🟢 Facile,"Routing number 011000015, account 12345678.",True,True,True,True,True
+conto_corrente,dati_finanziari,🟢 Facile,Deposito su conto 000-1234567 filiale Milano.,True,True,True,True,False
+conto_corrente,dati_finanziari,🟢 Facile,"Bank account: 78901234, sort code 20-00-00.",True,True,True,True,True
+conto_corrente,dati_finanziari,🟢 Facile,Il numero di conto da addebitare è 98765432.,True,True,True,True,True
+conto_corrente,dati_finanziari,🟡 Medio,"Accredito su conto intestato a me: ABI 03069, CAB 09606, numero 000001234567.",True,True,True,True,False
+conto_corrente,dati_finanziari,🟡 Medio,Il conto corrente del fornitore è il n. 001234 presso Unicredit filiale Roma.,True,True,True,True,False
+conto_corrente,dati_finanziari,🟡 Medio,"Per il pagamento tasse: conto Agenzia Entrate 1010 1010 100, routing 028000024.",True,True,True,True,True
+conto_corrente,dati_finanziari,🟡 Medio,Cambio conto stipendio: nuovo conto 0034 1234 5678 9012 aperto presso BNL.,True,True,False,False,False
+conto_corrente,dati_finanziari,🟡 Medio,"Il conto da addebitare per il mutuo è il 00123456, filiale Firenze, Banca Toscana.",True,True,True,True,True
+conto_corrente,dati_finanziari,🟡 Medio,Conto corrente condominiale n. 456789-10 sul quale accreditare le quote.,True,True,True,True,False
+conto_corrente,dati_finanziari,🟡 Medio,"Deposito cauzionale su conto amministratore: 0001234567, banca specificata nel contratto.",True,True,True,True,False
+conto_corrente,dati_finanziari,🟡 Medio,"Coordinate bancarie per rimborso: routing 026009593, account no. 3456789012.",True,True,True,True,True
+conto_corrente,dati_finanziari,🟡 Medio,"Addebito SDD su conto 00098765432, banca emittente confermata.",True,True,True,True,True
+conto_corrente,dati_finanziari,🟡 Medio,"Il conto aziendale separato per i clienti è il 1234-5678-00, ABI 01030.",True,True,True,True,True
+conto_corrente,dati_finanziari,🔴 Difficile,"Usa il conto corrente che conosci già, non quello nuovo che non ho ancora attivato.",False,True,True,True,False
+conto_corrente,dati_finanziari,🔴 Difficile,"Il conto è quello della banca principale, i dati li trovi nel contratto di fornitura.",False,True,True,True,False
+conto_corrente,dati_finanziari,🔴 Difficile,Numero conto parziale che ricordo: inizia con 0012 e ha dieci cifre in tutto.,False,True,True,True,False
+conto_corrente,dati_finanziari,🔴 Difficile,"Il routing è quello della Federal Reserve Bank di New York, il conto lo trovi in archivio.",False,True,True,True,False
+conto_corrente,dati_finanziari,🔴 Difficile,Coordinate bancarie aggiornate: vedi il timbro in basso a sinistra sull'ultima fattura.,False,True,True,True,False
+conto_corrente,dati_finanziari,🔴 Difficile,Conto da chiudere (numero comunicato al direttore di filiale ma non ancora trascritto qui).,False,True,True,True,False
+conto_corrente,dati_finanziari,🔴 Difficile,Account bancario statunitense — routing e account nel PDF che ti mando a parte.,False,False,False,False,False
+conto_corrente,dati_finanziari,🔴 Difficile,"Il conto ha un numero di 12 cifre, te l'ho detto per telefono, ricordi?",False,True,True,True,False
+conto_corrente,dati_finanziari,🔴 Difficile,Il vecchio conto dormiente (numero nella lettera della banca del 2019) va chiuso.,False,True,False,False,False
+conto_corrente,dati_finanziari,🔴 Difficile,"Usa quello di risparmio, non quello corrente; entrambi intestati a me ma con numeri diversi.",False,True,True,True,False
+stipendio,dati_finanziari,🟢 Facile,Il mio stipendio è di €2.500 al mese.,True,True,False,False,False
+stipendio,dati_finanziari,🟢 Facile,Guadagno 30.000€ lordi all'anno.,True,True,True,True,False
+stipendio,dati_finanziari,🟢 Facile,RAL: 45.000€.,True,True,False,False,False
+stipendio,dati_finanziari,🟢 Facile,"Salary: $80,000/year.",True,False,False,False,False
+stipendio,dati_finanziari,🟢 Facile,La mia busta paga netta è 1.800€.,True,True,True,True,False
+stipendio,dati_finanziari,🟢 Facile,Percepisco uno stipendio mensile di 2.200 euro.,True,True,False,False,False
+stipendio,dati_finanziari,🟢 Facile,Il mio compenso annuo è 55.000 dollari.,True,True,True,True,False
+stipendio,dati_finanziari,🟢 Facile,Retribuzione mensile lorda: €3.500.,True,True,False,False,False
+stipendio,dati_finanziari,🟢 Facile,Il mio CTC è 60.000€ annui.,True,True,False,False,False
+stipendio,dati_finanziari,🟢 Facile,Stipendio netto mensile: £2.100.,True,True,False,False,False
+stipendio,dati_finanziari,🟡 Medio,Ho ricevuto un'offerta con RAL di 48.000€ più variabile fino al 15%.,True,True,True,True,False
+stipendio,dati_finanziari,🟡 Medio,Nel contratto integrativo è indicato che il mio stipendio base è €2.800/mese.,True,True,False,False,False
+stipendio,dati_finanziari,🟡 Medio,La mia retribuzione giornaliera da freelance è di 350€.,True,True,True,True,False
+stipendio,dati_finanziari,🟡 Medio,Dopo la promozione la mia RAL è passata da 38.000 a 44.000€ annui.,True,True,False,False,False
+stipendio,dati_finanziari,🟡 Medio,"Il netto in busta è 1.950€, ma la RAL complessiva supera i 40.000.",True,True,False,False,False
+stipendio,dati_finanziari,🟡 Medio,"Compenso concordato: €500 a giornata più IVA, per un totale stimato di €30.000 annui.",True,True,False,False,False
+stipendio,dati_finanziari,🟡 Medio,"Il mio stipendio da manager è di $120.000 lordi, con bonus up to 20%.",True,True,True,True,False
+stipendio,dati_finanziari,🟡 Medio,"La lettera di assunzione indica: retribuzione mensile lorda €3.200, 13 mensilità.",True,True,True,True,False
+stipendio,dati_finanziari,🟡 Medio,Percepisco un'indennità dirigenziale aggiuntiva di €800 mensili oltre alla retribuzione base.,True,True,True,True,False
+stipendio,dati_finanziari,🟡 Medio,"Guadagno circa 2.600 euro netti al mese, comprensivo di ticket restaurant.",True,True,True,True,False
+stipendio,dati_finanziari,🔴 Difficile,Mi hanno offerto uno stipendio leggermente superiore alla media di mercato per il mio ruolo.,False,True,False,False,False
+stipendio,dati_finanziari,🔴 Difficile,"Il mio compenso è quello concordato nell'ultima negoziazione, ricordi? Avevamo detto più del precedente.",False,True,True,True,False
+stipendio,dati_finanziari,🔴 Difficile,In busta prendo più dei colleghi junior ma meno dei senior: posizionato a metà scala.,False,True,True,True,False
+stipendio,dati_finanziari,🔴 Difficile,La mia RAL è quella indicata nella lettera di assunzione allegata all'onboarding.,False,True,True,True,False
+stipendio,dati_finanziari,🔴 Difficile,Dopo la valutazione annuale mi aspetto un aumento del 5% sulla retribuzione attuale.,False,True,True,True,False
+stipendio,dati_finanziari,🔴 Difficile,Guadagno quanto basta per stare in fascia media nel settore tech di Milano.,False,True,True,True,False
+stipendio,dati_finanziari,🔴 Difficile,"Il mio compenso netto mensile è nell'ordine dei duemila euro, più o meno.",False,True,False,False,False
+stipendio,dati_finanziari,🔴 Difficile,"Come freelance il mio reddito è variabile, tra i 3.000 e i 5.000 euro al mese.",False,False,False,False,False
+stipendio,dati_finanziari,🔴 Difficile,Ho comunicato la mia aspettativa retributiva nella lettera di presentazione allegata.,False,True,True,True,False
+stipendio,dati_finanziari,🔴 Difficile,"Il mio stipendio attuale lo conosci, è quello che hai in gestione paghe.",False,True,False,False,False
+fatturato,dati_finanziari,🟢 Facile,Il nostro fatturato è di 3 milioni di euro.,True,True,False,False,False
+fatturato,dati_finanziari,🟢 Facile,Revenue: €12M per anno.,True,False,False,False,False
+fatturato,dati_finanziari,🟢 Facile,Fatturato annuale: 500.000€.,True,False,False,False,False
+fatturato,dati_finanziari,🟢 Facile,Annual turnover: £2.5 million.,True,True,True,False,False
+fatturato,dati_finanziari,🟢 Facile,Il giro d'affari è di 8 mln€.,True,True,True,True,False
+fatturato,dati_finanziari,🟢 Facile,"Revenues this year: $15,000,000.",True,True,True,False,False
+fatturato,dati_finanziari,🟢 Facile,"Fatturato 2023: 1,2 milioni.",True,False,False,False,False
+fatturato,dati_finanziari,🟢 Facile,Turnover annuo: 750k€.,True,True,True,True,False
+fatturato,dati_finanziari,🟢 Facile,Ricavi netti: €4.500.000.,True,False,False,False,False
+fatturato,dati_finanziari,🟢 Facile,Sales volume: 20 million USD.,True,True,True,True,False
+fatturato,dati_finanziari,🟡 Medio,"L'azienda ha chiuso il 2023 con un fatturato consolidato di 12,5 milioni di euro.",True,True,True,True,False
+fatturato,dati_finanziari,🟡 Medio,"Il target di revenue per il prossimo anno è fissato a 5M€, in crescita del 25%.",True,True,False,False,False
+fatturato,dati_finanziari,🟡 Medio,"Fatturato primo semestre: €1,8M, in linea con il budget annuale di 3,5M.",True,True,True,True,False
+fatturato,dati_finanziari,🟡 Medio,"La divisione retail ha generato ricavi per £800k su un totale aziendale di £3,2M.",True,True,True,True,False
+fatturato,dati_finanziari,🟡 Medio,EBITDA margin del 18% su revenues di $22M: utile operativo circa $4M.,True,True,False,False,False
+fatturato,dati_finanziari,🟡 Medio,Il business plan prevede di raggiungere un fatturato di 10M€ entro il 2026.,True,True,False,False,False
+fatturato,dati_finanziari,🟡 Medio,"Revenue breakdown: prodotti 60% su €6M totali, servizi il restante 40%.",True,True,False,False,False
+fatturato,dati_finanziari,🟡 Medio,"Il cliente principale vale da solo il 30% del nostro fatturato annuo di 2,4M€.",True,True,False,False,False
+fatturato,dati_finanziari,🟡 Medio,"Fatturato export: €900k su totale di €3M, pari al 30% delle vendite.",True,False,False,False,False
+fatturato,dati_finanziari,🟡 Medio,Nel pitch abbiamo dichiarato revenues di $1.2M ARR con growth rate del 40% YoY.,True,True,True,True,False
+fatturato,dati_finanziari,🔴 Difficile,Il nostro giro d'affari è confidenziale ma posso dirti che siamo nella fascia delle PMI sopra il milione.,False,True,False,False,False
+fatturato,dati_finanziari,🔴 Difficile,"Il fatturato è quello riportato nell'ultimo bilancio depositato, accessibile alla Camera di Commercio.",False,True,False,False,False
+fatturato,dati_finanziari,🔴 Difficile,Revenue in crescita rispetto all'anno scorso: percentuale da discutere internamente prima di comunicare.,False,True,True,True,False
+fatturato,dati_finanziari,🔴 Difficile,Il nostro fatturato è di poco inferiore alla soglia che ci obbligherebbe alla revisione legale.,False,True,False,False,False
+fatturato,dati_finanziari,🔴 Difficile,"Ricavi non ancora consolidati per quest'anno, ma siamo già oltre il target del Q3.",False,True,True,True,False
+fatturato,dati_finanziari,🔴 Difficile,Il volume d'affari è paragonabile a quello della divisione concorrente che è stata acquisita l'anno scorso.,False,True,True,False,False
+fatturato,dati_finanziari,🔴 Difficile,"La nostra top line è nell'ordine delle sette cifre in euro, i dettagli sono nel NDA.",False,True,False,False,False
+fatturato,dati_finanziari,🔴 Difficile,Fatturato comunicato al solo CDA: in linea con le aspettative ma sotto ai competitor diretti.,False,True,False,False,False
+fatturato,dati_finanziari,🔴 Difficile,I ricavi dell'ultimo esercizio sono quelli che il commercialista ha inserito in dichiarazione.,False,True,True,True,False
+fatturato,dati_finanziari,🔴 Difficile,"Volume di affari annuale: classificato come riservato, visibile solo agli investitori qualificati.",False,True,True,True,False
+password,credenziali,🟢 Facile,La mia password è MyP@ss123.,True,True,True,True,False
+password,credenziali,🟢 Facile,Password: abc123!,True,False,False,False,False
+password,credenziali,🟢 Facile,Pwd: Qwerty2024.,True,False,False,False,False
+password,credenziali,🟢 Facile,Il mio accesso ha password Admin#456.,True,True,False,False,False
+password,credenziali,🟢 Facile,Password di sistema: P@$$w0rd.,True,False,False,False,False
+password,credenziali,🟢 Facile,La password del router è 12345678.,True,True,True,True,False
+password,credenziali,🟢 Facile,Access code: Summer2023!,True,True,False,False,False
+password,credenziali,🟢 Facile,Password account: C0mpl3x!Pass,True,False,False,False,False
+password,credenziali,🟢 Facile,Credentials: user/Pass123,True,False,False,False,False
+password,credenziali,🟢 Facile,Login password: Secure@2024,True,True,False,False,False
+password,credenziali,🟡 Medio,Ho impostato come password il nome di mio figlio seguito dall'anno di nascita: Marco1998!,True,False,False,False,False
+password,credenziali,🟡 Medio,"La password temporanea che mi hai inviato è Temp#9876, la cambierò subito.",True,True,True,True,False
+password,credenziali,🟡 Medio,"Accesso al gestionale: utente admin, password attuale P@assw0rd! da modificare.",True,True,True,True,False
+password,credenziali,🟡 Medio,Il collega mi ha comunicato le sue credenziali per emergenza: pwd ****456 (non ricordo le prime).,True,True,True,True,False
+password,credenziali,🟡 Medio,La password del WiFi aziendale è stata cambiata in Office2024#Secure.,True,True,False,False,False
+password,credenziali,🟡 Medio,Per il VPN le credenziali sono: vpnuser / V3ryS3cur3Pass!2024.,True,True,False,False,False
+password,credenziali,🟡 Medio,Ho usato come password la mia data di nascita invertita: 5891031M@ (non sicuro lo so).,True,True,False,False,False
+password,credenziali,🟡 Medio,Il sistema chiede di cambiare la password attuale (OldPass#1) con una nuova.,True,True,True,True,False
+password,credenziali,🟡 Medio,"Password del backup: B@ckup$ecure!99, da non condividere.",True,True,True,True,False
+password,credenziali,🟡 Medio,Le credenziali del server di staging sono admin / Staging!Pass2023.,True,True,True,True,False
+password,credenziali,🔴 Difficile,"La password è quella solita che uso per tutto, sai qual è.",False,True,True,True,False
+password,credenziali,🔴 Difficile,Ho la password scritta su un post-it giallo sulla mia scrivania.,False,True,True,True,False
+password,credenziali,🔴 Difficile,"La mia password attuale è una variazione di quella che usavo prima, con un numero in più.",False,True,True,True,False
+password,credenziali,🔴 Difficile,"Credenziali: utente come al solito, password inviata per SMS sul telefono che conosci.",False,True,True,True,False
+password,credenziali,🔴 Difficile,"Ho usato una passphrase: tre parole casuali separate da trattini, te la dico a voce.A",False,True,True,True,False
+password,credenziali,🔴 Difficile,Password parzialmente visibile nel log: ***word123 — è quella che uso dal 2022.,False,True,False,False,False
+password,credenziali,🔴 Difficile,"Il mio gestore di password salva tutto, la master password la conosco solo io.",False,True,True,True,False
+password,credenziali,🔴 Difficile,Access condiviso con il team: le credenziali sono quelle nel vault di LastPass condiviso.,False,True,False,False,False
+password,credenziali,🔴 Difficile,La password è quella che ho impostato quando mi hai aiutato a configurare l'account.,False,True,True,True,False
+password,credenziali,🔴 Difficile,Ho dovuto resettare la password perché l'ho dimenticata; quella nuova te la dico adesso: …,False,True,True,True,False
+PIN,credenziali,🟢 Facile,Il mio PIN è 1234.,True,True,False,False,False
+PIN,credenziali,🟢 Facile,Codice PIN: 9876.,True,False,False,False,False
+PIN,credenziali,🟢 Facile,Il PIN della carta è 0000.,True,True,False,False,False
+PIN,credenziali,🟢 Facile,PIN bancomat: 4321.,True,False,False,False,False
+PIN,credenziali,🟢 Facile,PIN telefono: 1111.,True,False,False,False,False
+PIN,credenziali,🟢 Facile,Il codice PIN è 2580.,True,True,False,False,False
+PIN,credenziali,🟢 Facile,SIM PIN: 1234.,True,False,False,False,False
+PIN,credenziali,🟢 Facile,Il mio pin è 7890.,True,True,False,False,False
+PIN,credenziali,🟢 Facile,Codice: 3691.,True,False,False,False,False
+PIN,credenziali,🟢 Facile,PIN cassaforte: 0852.,True,False,False,False,False
+PIN,credenziali,🟡 Medio,"Per accedere all'allarme il PIN è 4499, da non condividere con nessuno.",True,True,False,False,False
+PIN,credenziali,🟡 Medio,Il PIN del dispositivo aziendale è stato impostato su 2468 in attesa del cambio obbligatorio.,True,True,True,True,False
+PIN,credenziali,🟡 Medio,"Ho dimenticato il PIN della SIM, ma so che era una sequenza crescente tipo 1234 o 2345.",True,True,True,True,False
+PIN,credenziali,🟡 Medio,Il vecchio PIN del bancomat era 1357; dopo il furto l'ho cambiato ma non ricordo il nuovo.,True,True,True,False,False
+PIN,credenziali,🟡 Medio,"PIN temporaneo per il badge d'ingresso: 9753, valido fino a venerdì.",True,True,False,False,False
+PIN,credenziali,🟡 Medio,"Il consulente ha impostato il PIN del lucchetto su 1470, annotato nel registro.",True,True,False,False,False
+PIN,credenziali,🟡 Medio,"Per sbloccare il tablet del cliente usare il PIN 6543, comunicato telefonicamente.",True,True,False,False,False
+PIN,credenziali,🟡 Medio,"Il PIN di accesso al parcheggio è 2024, cambia ogni anno con l'anno in corso.",True,True,True,True,False
+PIN,credenziali,🟡 Medio,Ho impostato il PIN del conto online su 8642 per via delle regole di sicurezza.,True,True,True,True,False
+PIN,credenziali,🟡 Medio,"PIN emergenza cassetta di sicurezza: 0369, usare solo in caso di necessità.",True,True,True,True,False
+PIN,credenziali,🔴 Difficile,"Il PIN è quello che uso per tutto, te l'ho già detto una volta.",False,True,True,True,False
+PIN,credenziali,🔴 Difficile,"Ho un PIN che non ricordo più: era qualcosa come 1?3?, forse 1234.",False,True,True,True,False
+PIN,credenziali,🔴 Difficile,Il PIN del cellulare è la data del mio anniversario in formato DDMM.,False,True,False,False,False
+PIN,credenziali,🔴 Difficile,"Per il codice di sicurezza chiedi al responsabile IT, lui lo sa.",False,True,True,True,False
+PIN,credenziali,🔴 Difficile,"PIN parziale che ricordo: inizia con 5, le altre cifre non le ricordo.",False,True,True,True,False
+PIN,credenziali,🔴 Difficile,Il codice di sblocco è uguale al PIN del bancomat ma invertito.,False,True,False,False,False
+PIN,credenziali,🔴 Difficile,"Ho impostato un PIN di 6 cifre per questo servizio, te lo mando via messaggio.",False,True,True,True,False
+PIN,credenziali,🔴 Difficile,"Il PIN era quello di default del dispositivo, mai cambiato.",False,True,True,True,False
+PIN,credenziali,🔴 Difficile,"Codice di accesso noto solo a me e al mio supervisore, non trascritto.",False,True,True,True,False
+PIN,credenziali,🔴 Difficile,Il PIN è scritto in codice nella mia agenda a pag. 47.,False,True,False,False,False
+token,credenziali,🟢 Facile,Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.,True,True,True,True,False
+token,credenziali,🟢 Facile,Token: abc123xyz.,True,True,True,True,False
+token,credenziali,🟢 Facile,refresh_token: def456ghi789.,True,True,True,True,False
+token,credenziali,🟢 Facile,Authorization: Bearer eyABC123DEF.,True,False,False,False,False
+token,credenziali,🟢 Facile,access_token=eyJzdWIiOiJ1c2VyMTIzIn0.,True,True,True,True,False
+token,credenziali,🟢 Facile,JWT: xxxxx.yyyyy.zzzzz.,True,True,True,True,False
+token,credenziali,🟢 Facile,Token di sessione: sess_abc123.,True,True,True,True,False
+token,credenziali,🟢 Facile,Il mio token OAuth è ya29.A0ARrdaM.,True,True,False,False,False
+token,credenziali,🟢 Facile,Auth token: tok_live_1234567890.,True,True,True,True,True
+token,credenziali,🟢 Facile,Session token: st_xxxxyyyyzzzz.,True,False,False,False,False
+token,credenziali,🟡 Medio,Puoi usare questo token per l'autenticazione: Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJ1c2VyIn0.sig,True,True,True,True,False
+token,credenziali,🟡 Medio,Il refresh token è scaduto; eccone uno nuovo: rt_1234567890abcdef.,True,True,False,False,False
+token,credenziali,🟡 Medio,Nel header della richiesta ho messo: Authorization: Bearer eyMIOTOKEN12345.,True,True,True,True,False
+token,credenziali,🟡 Medio,Token di accesso all'API di pagamento: pk_live_abcdefghij1234567890.,True,True,True,True,False
+token,credenziali,🟡 Medio,Il JWT generato è: eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MTIzfQ.TOKEN_FIRMA.,True,True,True,True,False
+token,credenziali,🟡 Medio,Token OAuth2 scaduto alle 23:59: eyOldToken... — sostituirlo con quello nel vault.,True,True,True,True,False
+token,credenziali,🟡 Medio,L'ID token OIDC dell'utente contiene: eyJraWQiOiJrZXkxIn0.payload.signature.,True,True,True,False,False
+token,credenziali,🟡 Medio,Per testare l'endpoint usare il token di staging: Bearer test_tok_abcxyz123456.,True,True,False,False,False
+token,credenziali,🟡 Medio,Personal access token GitHub: ghp_AbcDef1234567890XyZ.,True,False,False,False,False
+token,credenziali,🟡 Medio,Il servizio richiede un token SAML: base64EncodedSAMLAssertionHere.,True,True,False,False,False
+token,credenziali,🔴 Difficile,"Il token è quello nel clipboard, te lo passo adesso: [omesso per sicurezza].",False,True,True,True,False
+token,credenziali,🔴 Difficile,"Usa il token salvato nel .env file della repo, chiave ACCESS_TOKEN.",False,True,True,True,False
+token,credenziali,🔴 Difficile,"Il bearer token scade ogni ora, quello attuale è nel sistema di CI/CD.",False,True,True,True,False
+token,credenziali,🔴 Difficile,"Ho rotato il token ieri sera, il nuovo è nel vault aziendale alla voce 'API prod'.",False,True,True,True,False
+token,credenziali,🔴 Difficile,"Il token di autenticazione è quello che ti avevo mandato per email, ricordi?",False,True,True,True,False
+token,credenziali,🔴 Difficile,JWT ancora valido ma in scadenza: guarda il claim 'exp' per capire quando.,False,True,True,True,False
+token,credenziali,🔴 Difficile,"Il token è lungo 512 bit, te lo mando su canale sicuro appena possibile.",False,True,True,True,False
+token,credenziali,🔴 Difficile,Autorizzazione con token opaco (non JWT): stringa casuale di 40 caratteri salvata nel Redis.,False,True,True,True,False
+token,credenziali,🔴 Difficile,"Il refresh token è quello che hai già salvato, non serve che te ne mandi uno nuovo.",False,True,False,False,False
+token,credenziali,🔴 Difficile,Token di servizio per l'integrazione con il CRM: configurato nell'env di produzione.,False,True,True,True,False
+API_key,credenziali,🟢 Facile,La mia API key è sk-abc123def456.,True,True,True,True,False
+API_key,credenziali,🟢 Facile,api_key=ABCD1234EFGH5678.,True,False,False,False,False
+API_key,credenziali,🟢 Facile,Authorization: ApiKey xyz987uvw654.,True,False,False,False,False
+API_key,credenziali,🟢 Facile,API Key: AIzaSyB1234567890abcdefg.,True,False,False,False,False
+API_key,credenziali,🟢 Facile,Stripe key: sk_live_abcdefghijklmnop.,True,False,False,False,False
+API_key,credenziali,🟢 Facile,OpenAI API key: sk-1234567890abcdefghijklm.,True,True,False,False,False
+API_key,credenziali,🟢 Facile,SendGrid key: SG.abcdefghijklmnop.qrstuvwxyz.,True,False,False,False,False
+API_key,credenziali,🟢 Facile,"Twilio SID: ACabcdef1234567890, token: auth123.",True,True,True,True,False
+API_key,credenziali,🟢 Facile,AWS access key: AKIAIOSFODNN7EXAMPLE.,True,True,True,True,False
+API_key,credenziali,🟢 Facile,Google API key: AIzaSyC0000000000000000000.,True,True,True,True,False
+API_key,credenziali,🟡 Medio,Ho inserito la mia API key di produzione nel codice: sk-proj-abcABC123456789.,True,True,True,True,False
+API_key,credenziali,🟡 Medio,La chiave per l'ambiente di test è sk-test-abcdefghijklmnopqrstuvwx.,True,True,True,True,False
+API_key,credenziali,🟡 Medio,Chiave API servizio meteo: 1234567890abcdef1234567890abcdef.,True,True,False,False,False
+API_key,credenziali,🟡 Medio,GitHub personal token (classic): ghp_AbCdEfGhIjKlMnOpQrStUvWxYz12.,True,False,False,False,False
+API_key,credenziali,🟡 Medio,Chiave pubblica Stripe: pk_live_AbCdEfGhIjKlMnOpQrStUvWx.,True,True,True,True,False
+API_key,credenziali,🟡 Medio,API key revocata dopo breach: OLD_KEY_abc123 — già invalidata.,True,True,False,False,False
+API_key,credenziali,🟡 Medio,Nel config.yaml ho inserito: api_key: 'prod-key-XYZ1234567890ABCD'.,True,True,True,True,False
+API_key,credenziali,🟡 Medio,Mapbox public token: pk.eyJ1IjoidXNlcm5hbWUifQ.Signature1234.,True,True,True,False,False
+API_key,credenziali,🟡 Medio,Chiave API interna per microservizi: internal-svc-key-12345abcde.,True,True,True,True,False
+API_key,credenziali,🟡 Medio,La API key del cliente per il sandbox è: sandbox_key_ABCDEFGH1234.,True,True,False,False,False
+API_key,credenziali,🔴 Difficile,La API key è quella in cima al file .env che ti ho mandato su Slack.,False,True,True,True,False
+API_key,credenziali,🔴 Difficile,"Usa la chiave di produzione, non quella di test: trovi la differenza dal prefisso.",False,True,True,True,False
+API_key,credenziali,🔴 Difficile,"Ho ruotato le chiavi API ieri, quelle nuove sono nel secrets manager.",False,True,True,True,False
+API_key,credenziali,🔴 Difficile,"La chiave API è quella legata all'account di servizio principale, non a quello personale.",False,True,False,False,False
+API_key,credenziali,🔴 Difficile,"API key parziale nel log: sk-...ABCD, bisogna rigenerarla dal pannello.",False,True,True,True,False
+API_key,credenziali,🔴 Difficile,Il cliente ci ha fornito una chiave con validità limitata: scade a fine mese.,False,True,True,True,False
+API_key,credenziali,🔴 Difficile,Chiave di accesso AWS: quella con privilegi minimi per questo specifico bucket S3.,False,True,True,True,False
+API_key,credenziali,🔴 Difficile,La API key è nascosta come environment variable nel deployment su Heroku.,False,True,True,True,False
+API_key,credenziali,🔴 Difficile,"Ho dimenticato dove ho salvato la chiave, ma so che inizia con 'prod-' seguito da 32 caratteri.",False,True,True,True,False
+API_key,credenziali,🔴 Difficile,Chiave API da revocare: è quella associata all'utente rimosso dal team la settimana scorsa.,False,True,True,True,False
+indirizzo_IP,dati_tecnici,🟢 Facile,Il server è all'indirizzo 192.168.1.1.,True,True,True,True,True
+indirizzo_IP,dati_tecnici,🟢 Facile,IP del client: 10.0.0.254.,True,True,True,True,True
+indirizzo_IP,dati_tecnici,🟢 Facile,IPv6: 2001:0db8:85a3::8a2e:370:7334.,True,True,True,True,True
+indirizzo_IP,dati_tecnici,🟢 Facile,L'attacco proviene da 203.0.113.42.,True,True,True,True,True
+indirizzo_IP,dati_tecnici,🟢 Facile,IP macchina di sviluppo: 172.16.0.10.,True,True,True,True,True
+indirizzo_IP,dati_tecnici,🟢 Facile,Server pubblico: 185.220.101.5.,True,True,True,True,True
+indirizzo_IP,dati_tecnici,🟢 Facile,Gateway di rete: 192.168.0.1.,True,True,True,True,True
+indirizzo_IP,dati_tecnici,🟢 Facile,IP DNS primario: 8.8.8.8.,True,True,True,True,True
+indirizzo_IP,dati_tecnici,🟢 Facile,Indirizzo IP del firewall: 10.10.10.1.,True,True,True,True,True
+indirizzo_IP,dati_tecnici,🟢 Facile,Connessione da IP: 91.108.4.165.,True,True,True,True,True
+indirizzo_IP,dati_tecnici,🟡 Medio,Il log mostra tentativi di accesso ripetuti dall'IP 198.51.100.23 nelle ultime 24 ore.,True,True,True,True,True
+indirizzo_IP,dati_tecnici,🟡 Medio,Ho whitelistato il range 192.168.1.0/24 per l'accesso al pannello di amministrazione.,True,True,True,True,True
+indirizzo_IP,dati_tecnici,🟡 Medio,"Connessione VPN stabilita da IP esterno: 203.0.113.15, utente autenticato.",True,True,True,True,True
+indirizzo_IP,dati_tecnici,🟡 Medio,"Il server di posta è raggiungibile a 172.16.0.50, porta 25, protocollo SMTP.",True,True,True,True,True
+indirizzo_IP,dati_tecnici,🟡 Medio,"L'indirizzo IP del NAS sulla rete locale è 192.168.2.100, accesso via SMB.",True,True,True,True,True
+indirizzo_IP,dati_tecnici,🟡 Medio,IP sorgente del tentativo di phishing identificato: 185.234.218.42.,True,True,True,True,True
+indirizzo_IP,dati_tecnici,🟡 Medio,"Macchina compromessa in rete: IP 10.0.1.45, isolata dal segmento produzione.",True,True,True,True,True
+indirizzo_IP,dati_tecnici,🟡 Medio,Il proxy aziendale usa l'IP 10.20.30.40:8080 per tutte le richieste HTTP.,True,True,True,True,True
+indirizzo_IP,dati_tecnici,🟡 Medio,Record A DNS aggiornato: dominio.it ora punta a 95.217.163.246.,True,True,True,True,True
+indirizzo_IP,dati_tecnici,🟡 Medio,IPv6 assegnato al router edge: 2a01:4f8:c0c:3a27::1.,True,True,True,True,True
+indirizzo_IP,dati_tecnici,🔴 Difficile,"L'IP del server è quello che cambia ogni settimana, guarda il DNS dinamico.",False,True,False,False,False
+indirizzo_IP,dati_tecnici,🔴 Difficile,"Connessione da un IP che non è nella whitelist, inizio con 185.*, devo verificare.",False,True,True,True,False
+indirizzo_IP,dati_tecnici,🔴 Difficile,"Il mio IP pubblico attuale lo puoi trovare su whatismyip.com, cambia ogni tanto.",False,True,True,True,False
+indirizzo_IP,dati_tecnici,🔴 Difficile,"Indirizzo IP del container Docker: nella subnet 172.17.x.x, assegnato dinamicamente.",False,True,True,True,False
+indirizzo_IP,dati_tecnici,🔴 Difficile,"L'IP è quello dell'istanza EC2 su AWS, nella VPC privata, raggiungibile solo via bastion.",False,True,False,False,False
+indirizzo_IP,dati_tecnici,🔴 Difficile,Il firewall ha bloccato il range di IP di quel provider che sappiamo essere problematico.,False,True,False,False,False
+indirizzo_IP,dati_tecnici,🔴 Difficile,"Connessione sospetta da IP geolocalizzato in Russia, ma potrebbe essere un VPN.",False,True,True,True,False
+indirizzo_IP,dati_tecnici,🔴 Difficile,Il server ha due IP: uno pubblico per il frontend e uno privato per il database.,False,True,False,False,False
+indirizzo_IP,dati_tecnici,🔴 Difficile,"IP parziale nei log: 192.168.*.*, impossibile determinare il dispositivo esatto.",False,True,True,True,False
+indirizzo_IP,dati_tecnici,🔴 Difficile,"L'IP del collega in smart working è quello assegnato dal suo ISP, non fisso.",False,True,True,True,False
+vulnerabilita,dati_tecnici,🟢 Facile,Abbiamo trovato una vulnerabilità CVE-2024-1234 nel sistema.,True,True,True,True,False
+vulnerabilita,dati_tecnici,🟢 Facile,SQL injection nel form di login.,True,True,False,False,False
+vulnerabilita,dati_tecnici,🟢 Facile,Buffer overflow in v2.1.3.,True,True,False,False,False
+vulnerabilita,dati_tecnici,🟢 Facile,XSS trovato nella pagina di ricerca.,True,False,False,False,False
+vulnerabilita,dati_tecnici,🟢 Facile,CSRF vulnerability nella form di pagamento.,True,True,False,False,False
+vulnerabilita,dati_tecnici,🟢 Facile,CVE-2023-44487 presente nel nostro server.,True,True,True,False,False
+vulnerabilita,dati_tecnici,🟢 Facile,Path traversal nella API di download file.,True,False,False,False,False
+vulnerabilita,dati_tecnici,🟢 Facile,RCE critica nel modulo di upload.,True,True,False,False,False
+vulnerabilita,dati_tecnici,🟢 Facile,Vulnerabilità IDOR sull'endpoint /api/users.,True,False,False,False,False
+vulnerabilita,dati_tecnici,🟢 Facile,Log4Shell (CVE-2021-44228) non ancora patchato.,True,True,False,False,False
+vulnerabilita,dati_tecnici,🟡 Medio,Il penetration test ha rilevato SQL injection sull'endpoint /login?user=admin'--.,True,True,False,False,False
+vulnerabilita,dati_tecnici,🟡 Medio,Il componente Apache Struts v2.3.36 risulta vulnerabile a CVE-2018-11776 (RCE critica).,True,True,True,True,False
+vulnerabilita,dati_tecnici,🟡 Medio,Nel codice sorgente è presente una hard-coded credential: admin/password nel file config.php.,True,True,True,False,False
+vulnerabilita,dati_tecnici,🟡 Medio,Il server espone una versione di OpenSSL (1.0.1e) vulnerabile a Heartbleed (CVE-2014-0160).,True,False,False,False,False
+vulnerabilita,dati_tecnici,🟡 Medio,Rilevata deserializzazione non sicura nell'API REST: possibile code execution arbitraria.,True,True,True,True,False
+vulnerabilita,dati_tecnici,🟡 Medio,"Il report di sicurezza indica XSS persistente nella sezione commenti, sfruttabile da remoto.",True,True,False,False,False
+vulnerabilita,dati_tecnici,🟡 Medio,La libreria jackson-databind <2.9.10.7 presente nel progetto è affetta da CVE-2020-36518.,True,True,True,True,True
+vulnerabilita,dati_tecnici,🟡 Medio,Trovato SSRF (Server-Side Request Forgery) nell'endpoint di preview URL del CMS.,True,True,True,True,False
+vulnerabilita,dati_tecnici,🟡 Medio,La configurazione CORS permette origine wildcard (*) esponendo dati autenticati a terzi.,True,True,False,False,False
+vulnerabilita,dati_tecnici,🟡 Medio,"Outdated PHP 7.2 sul server: 37 CVE pubbliche note, nessuna patch applicata.",True,True,True,True,False
+vulnerabilita,dati_tecnici,🔴 Difficile,"Ho caricato per sbaglio lo script su GitHub e ci è finita dentro la chiave AWS AKIAIOSFODNN7EXAMPLE, dobbiamo revocarla subito.",True,True,True,True,False
+vulnerabilita,dati_tecnici,🔴 Difficile,Nel file config.php c'è ancora la password del database di produzione in chiaro: utente root e password SuperSecretDB99!.,True,True,True,False,False
+vulnerabilita,dati_tecnici,🔴 Difficile,"Se fai un ping dall'esterno verso il bilanciatore, l'header HTTP di risposta espone l'IP del server interno 10.24.5.112.",True,True,True,True,True
+vulnerabilita,dati_tecnici,🔴 Difficile,"Il firewall aziendale sta ancora girando su FortiOS 6.0.2, è vulnerabile alla CVE-2018-13379 e l'exploit è pubblico.",True,True,True,True,False
+vulnerabilita,dati_tecnici,🔴 Difficile,L'interfaccia di amministrazione nascosta è stranamente raggiungibile da chiunque all'indirizzo https://gestionale.azienda.it/admin_hidden_login.,True,True,True,True,False
+vulnerabilita,dati_tecnici,🔴 Difficile,"Ho catturato un token di sessione JWT valido dai log applicativi, inizia con eyJhbGciOiJIUzI1Ni... e sembra non avere scadenza.",True,True,True,True,False
+vulnerabilita,dati_tecnici,🔴 Difficile,"Mi sono accorto che il bucket S3 backup-clienti-prod-2025 non ha le policy IAM restrittive, chiunque può scaricare i dump.",True,True,True,True,False
+vulnerabilita,dati_tecnici,🔴 Difficile,I nuovi router installati in filiale hanno ancora le credenziali di default admin e password123 con la porta 22 esposta su internet.,True,True,True,True,False
+vulnerabilita,dati_tecnici,🔴 Difficile,Durante il test sono riuscito a mappare tutta l'infrastruttura backend risolvendo il dominio interno auth.internalsystems.local.,True,True,True,False,False
+vulnerabilita,dati_tecnici,🔴 Difficile,La query vulnerabile alla SQL injection estrae direttamente i dati dalla tabella Clienti_CarteCredito senza alcun filtro di validazione.,True,True,True,True,False
+segreto_industriale,dati_aziendali,🟢 Facile,La formula del prodotto X è CH4O13B4.,True,True,True,True,False
+segreto_industriale,dati_aziendali,🟢 Facile,Il processo produttivo del motore SF26 brevettato è confidenziale.,True,True,True,True,False
+segreto_industriale,dati_aziendali,🟢 Facile,La composizione chimica riservata del compound Z.,True,True,False,False,False
+segreto_industriale,dati_aziendali,🟢 Facile,La ricetta segreta è sul file ghgf.doc del nostro bestseller.,True,True,True,True,False
+segreto_industriale,dati_aziendali,🟢 Facile,Tecnologia proprietaria per la produzione del chip AM24G5.,True,False,False,False,False
+segreto_industriale,dati_aziendali,🟢 Facile,Il processo segreto di fermentazione del prodotto bf254.,True,True,False,False,False
+segreto_industriale,dati_aziendali,🟢 Facile,Formula esclusiva del farmaco in sviluppo è presente nel file jwx.pdf.,True,True,True,True,False
+segreto_industriale,dati_aziendali,🟢 Facile,Composizione del rivestimento anti-attrito — top secret.,True,True,False,False,False
+segreto_industriale,dati_aziendali,🟢 Facile,Il metodo di sintesi del catalizzatore GHDS è segreto.,True,True,False,False,False
+segreto_industriale,dati_aziendali,🟢 Facile,Il know-how produttivo del farmaco BEPF under NDA.,True,True,False,False,False
+segreto_industriale,dati_aziendali,🟡 Medio,"Il compound attivo nel nostro prodotto è una miscela di A30%, B50%, C20% — non divulgare.",True,True,True,True,False
+segreto_industriale,dati_aziendali,🟡 Medio,La formula proprietaria del lubrificante ad alte prestazioni prevede 3 additivi brevettati.,True,True,True,True,False
+segreto_industriale,dati_aziendali,🟡 Medio,Il processo di lavorazione che ci distingue dai competitor include una fase termale a 420°C non documentata.,True,True,True,True,False
+segreto_industriale,dati_aziendali,🟡 Medio,La sequenza genomica modificata del ceppo batterico TGHK produttore è un segreto industriale.,True,True,True,True,False
+segreto_industriale,dati_aziendali,🟡 Medio,Il rapporto di miscelazione dei polimeri nel nostro prodotto è 2:1:0.5 — classificato.,True,True,False,False,False
+segreto_industriale,dati_aziendali,🟡 Medio,La nostra tecnologia di coating nanostrutturato è riportata nel documento allegato.,True,True,False,False,False
+segreto_industriale,dati_aziendali,🟡 Medio,La formulazione del conservante naturale (8% di estratto di stevia) non è replicabile senza il brevetto.,True,True,True,True,False
+segreto_industriale,dati_aziendali,🟡 Medio,Il metodo di cristallizzazione a bassa temperatura è il cuore del nostro vantaggio competitivo.,True,True,True,True,False
+segreto_industriale,dati_aziendali,🟡 Medio,"La composizione dell'alloy metallico proprietario: 72% Al, 18% Ti, 10% additivi segreti.",True,True,True,True,False
+segreto_industriale,dati_aziendali,🟡 Medio,Il processo catalitico per il prodotto S34GHJ2 a bassa energia è coperto da segreto industriale e NDA firmato.,True,True,True,True,False
+segreto_industriale,dati_aziendali,🔴 Difficile,"Il vero segreto della resistenza della nostra lega non è il titanio, ma l'aggiunta dello 0,5% di Vanadio durante la fase di raffreddamento rapido.",True,True,True,True,False
+segreto_industriale,dati_aziendali,🔴 Difficile,"Non lo scriviamo nelle schede di sicurezza pubbliche, ma il catalizzatore chimico che usiamo per accelerare la reazione è il Palladio puro al 99%",True,True,True,True,False
+segreto_industriale,dati_aziendali,🔴 Difficile,L'algoritmo proprietario scarta i difetti di produzione usando una rete neurale addestrata sul nostro dataset interno chiamato Progetto_Alpha_2023.,True,True,False,False,False
+segreto_industriale,dati_aziendali,🔴 Difficile,"Per ottenere quella specifica viscosità, i forni devono essere calibrati esattamente a 1450°C per 45 minuti, un parametro che teniamo fuori dai manuali.",True,True,True,True,False
+segreto_industriale,dati_aziendali,🔴 Difficile,"Il fornitore esclusivo del polimero base non è europeo come facciamo credere, compriamo tutto in white-label dalla ditta ChemCorp_Shenzhen.",True,True,True,True,False
+segreto_industriale,dati_aziendali,🔴 Difficile,"Come coperto dall'ultimo NDA firmato, il prototipo di terza generazione utilizzerà un sistema di dissipazione a metallo liquido che stiamo sviluppando in-house.",True,True,False,False,False
+segreto_industriale,dati_aziendali,🔴 Difficile,"La proporzione esatta della miscela, che teniamo in cassaforte, prevede rigorosamente un rapporto 3:1 tra l'estratto A e il composto B-7",True,True,True,True,False
+segreto_industriale,dati_aziendali,🔴 Difficile,Il passaggio non documentato di cui ti parlavo consiste nell'invertire la polarità del bagno galvanico per i primi dieci secondi del ciclo.,True,True,True,True,False
+segreto_industriale,dati_aziendali,🔴 Difficile,Abbiamo deciso di non brevettare la tecnica di rivestimento multistrato Shield-X_Polymer per evitare di rivelarne la composizione chimica ai concorrenti.,True,True,True,True,False
+segreto_industriale,dati_aziendali,🔴 Difficile,Nessuno all'esterno sa che il software di calibrazione delle lenti corregge l'aberrazione applicando un offset fisso di -0.04mm sull'asse Z.,True,True,True,True,False
+brevetto,dati_aziendali,🟢 Facile,Il nostro brevetto è EP1234567.,True,True,False,False,False
+brevetto,dati_aziendali,🟢 Facile,Patent pending US2023/0001234.,True,False,False,False,False
+brevetto,dati_aziendali,🟢 Facile,Invenzione non ancora depositata.,True,False,False,False,False
+brevetto,dati_aziendali,🟢 Facile,Brevetto europeo n. EP2345678B1.,True,True,False,False,False
+brevetto,dati_aziendali,🟢 Facile,Patent: US10123456B2.,True,False,False,False,False
+brevetto,dati_aziendali,🟢 Facile,Il brevetto WO2022/123456 è nostro.,True,True,False,False,False
+brevetto,dati_aziendali,🟢 Facile,Numero brevetto italiano: IT0001234567.,True,True,True,True,False
+brevetto,dati_aziendali,🟢 Facile,Patent application: PCT/IB2023/001234.,True,True,True,True,True
+brevetto,dati_aziendali,🟢 Facile,Brevetto in scadenza: EP987654 (2025).,True,True,True,False,False
+brevetto,dati_aziendali,🟢 Facile,Utility model: DE202023000123U1.,True,False,False,False,False
+brevetto,dati_aziendali,🟡 Medio,"Abbiamo depositato il brevetto EP23123456.7 la settimana scorsa, non ancora pubblico.",True,True,True,True,False
+brevetto,dati_aziendali,🟡 Medio,Il trovato è protetto da patent pending US2023/0056789A1 — evitare divulgazione pubblica.,True,True,True,True,False
+brevetto,dati_aziendali,🟡 Medio,"Il nostro portafoglio brevetti include EP1234567, EP2345678 e tre application pendenti.",True,True,True,True,False
+brevetto,dati_aziendali,🟡 Medio,La licenza del brevetto US8765432B2 è stata ceduta al partner industriale con royalty 5%.,True,True,False,False,False
+brevetto,dati_aziendali,🟡 Medio,Il brevetto di base WO2018/123456 scade nel 2038; i brevetti secondari nel 2045.,True,True,True,False,False
+brevetto,dati_aziendali,🟡 Medio,Stiamo valutando se estendere il brevetto EP9876543 nei paesi emergenti entro l'anno.,True,True,True,True,False
+brevetto,dati_aziendali,🟡 Medio,L'ufficio brevetti ha risposto all'azione di opposizione sul nostro EP1122334.,True,True,True,True,False
+brevetto,dati_aziendali,🟡 Medio,Il brevetto di processo (IT102021000012345) copre esclusivamente il territorio nazionale.,True,True,False,False,False
+brevetto,dati_aziendali,🟡 Medio,"Depositato divisionale del brevetto principale: EP23200001.8, rivendicazione sul metodo.",True,True,True,True,True
+brevetto,dati_aziendali,🟡 Medio,"Il PCT/IT2022/000234 è in fase nazionale in USA, Europa, Giappone e Cina.",True,True,True,True,False
+brevetto,dati_aziendali,🔴 Difficile,"Ti confermo che il numero della domanda di brevetto europeo appena depositata è EP24123456.7, per ora non divulgarlo a nessuno fuori dal team.",True,True,True,True,False
+brevetto,dati_aziendali,🔴 Difficile,Come prior art stiamo omettendo di citare il brevetto US8765432B2 perché invaliderebbe pesantemente la nostra rivendicazione principale.,True,True,False,False,False
+brevetto,dati_aziendali,🔴 Difficile,"Il deposito provvisorio per il nuovo rotore magnetico è stato effettuato ieri presso l'UIBM, abbiamo 12 mesi per procedere con l'estensione PCT.",True,True,False,False,False
+brevetto,dati_aziendali,🔴 Difficile,Lo studio legale Rossi & Partners ci ha suggerito di restringere il campo d'azione per evitare un'opposizione sicura da parte dei competitor tedeschi.,True,True,True,True,False
+brevetto,dati_aziendali,🔴 Difficile,"La bozza finale per brevettare il Progetto_Chimera è pronta, ma stiamo aspettando l'ok dal direttivo prima di procedere con il deposito formale.",True,True,True,True,False
+brevetto,dati_aziendali,🔴 Difficile,"Stiamo preparando un'opposizione segreta contro il brevetto del nostro concorrente storico, la scadenza ultima per depositarla all'ufficio europeo è il 15 Novembre 2026.",True,True,True,True,False
+brevetto,dati_aziendali,🔴 Difficile,Abbiamo deciso di far cadere l'estensione nazionale in Cina per la domanda PCT/IB2024/051234 a causa degli eccessivi costi di traduzione e mantenimento.,True,True,True,True,False
+brevetto,dati_aziendali,🔴 Difficile,Il nuovo algoritmo di compressione predittiva LZ-Ultra non verrà brevettato per evitare la pubblicazione forzata a 18 mesi; lo tratteremo come trade secret.,True,True,False,False,False
+brevetto,dati_aziendali,🔴 Difficile,"La rivendicazione indipendente numero 1 si basa sull'uso esclusivo di polimeri con peso molecolare superiore a 50.000 Dalton, che è il fulcro dell'invenzione.",True,True,True,True,False
+brevetto,dati_aziendali,🔴 Difficile,"Assicurati che gli inventori, Marco Bianchi e Laura Neri, firmino l'atto di cessione dei diritti economici all'azienda prima che il consulente proceda al deposito.",True,True,True,True,False
+strategia_aziendale,dati_aziendali,🟢 Facile,Il piano di espansione 2025 è riservato.,True,True,True,False,False
+strategia_aziendale,dati_aziendali,🟢 Facile,Strategia M&A riservata in corso.,True,True,True,True,False
+strategia_aziendale,dati_aziendali,🟢 Facile,La roadmap prodotto Q3 è confidenziale.,True,True,True,True,False
+strategia_aziendale,dati_aziendali,🟢 Facile,Stiamo pianificando l'ingresso in un nuovo mercato.,True,True,True,True,False
+strategia_aziendale,dati_aziendali,🟢 Facile,Il piano di fusione con la società X è segreto.,True,False,False,False,False
+strategia_aziendale,dati_aziendali,🟢 Facile,La strategia di pricing non va divulgata.,True,True,True,True,False
+strategia_aziendale,dati_aziendali,🟢 Facile,Il piano di ristrutturazione aziendale è riservato.,True,True,False,False,False
+strategia_aziendale,dati_aziendali,🟢 Facile,La nostra strategia competitiva è under NDA.,True,True,False,False,False
+strategia_aziendale,dati_aziendali,🟢 Facile,Il budget per le acquisizioni è confidenziale.,True,False,False,False,False
+strategia_aziendale,dati_aziendali,🟢 Facile,Il piano go-to-market del nuovo prodotto è segreto.,True,True,False,False,False
+strategia_aziendale,dati_aziendali,🟡 Medio,Il CDA ha approvato il piano di acquisizione di tre PMI nel settore tech entro il 2025.,True,True,True,True,False
+strategia_aziendale,dati_aziendali,🟡 Medio,La nostra strategia prevede l'uscita dal mercato tedesco e la concentrazione su Francia e Spagna.,True,True,True,True,False
+strategia_aziendale,dati_aziendali,🟡 Medio,Il piano di espansione in Asia include l'apertura di una filiale a Singapore entro Q2.,True,True,True,True,False
+strategia_aziendale,dati_aziendali,🟡 Medio,Stiamo valutando una IPO per il 2026: il processo è in fase di due diligence riservata.,True,True,True,True,False
+strategia_aziendale,dati_aziendali,🟡 Medio,La roadmap prodotto prevede il lancio di un'AI feature entro Q3 — non ancora annunciato.,True,True,True,True,False
+strategia_aziendale,dati_aziendali,🟡 Medio,La strategia di pricing aggressivo prevede un taglio del 20% per scalzare il competitor.,True,True,True,True,False
+strategia_aziendale,dati_aziendali,🟡 Medio,Il piano di ristrutturazione include la chiusura di due stabilimenti e 150 esuberi.,True,True,True,True,False
+strategia_aziendale,dati_aziendali,🟡 Medio,La joint venture con il partner americano è in fase di negoziazione avanzata.,True,True,True,True,False
+strategia_aziendale,dati_aziendali,🟡 Medio,Il budget M&A stanziato dal CDA è di 50M€ per operazioni nel settore SaaS.,True,True,False,False,False
+strategia_aziendale,dati_aziendali,🟡 Medio,La strategia commerciale per il 2025 prevede di focalizzarsi su clienti enterprise sopra i 500 dipendenti.,True,True,False,False,False
+strategia_aziendale,dati_aziendali,🔴 Difficile,"L'acquisizione della startup concorrente TechVision Srl è ormai alle battute finali, stiamo solo aspettando l'ok informale dell'antitrust.",True,True,True,True,False
+strategia_aziendale,dati_aziendali,🔴 Difficile,"Il piano di ristrutturazione interna, noto come Progetto Fenice, comporterà un taglio del 15% del personale nel prossimo trimestre, ma non è ancora stato discusso con i sindacati.",True,True,True,True,False
+strategia_aziendale,dati_aziendali,🔴 Difficile,Abbiamo incaricato Goldman Sachs come advisor esclusivo per esplorare un'opzione strategica alternativa al piano di espansione già annunciato.,True,True,True,True,False
+strategia_aziendale,dati_aziendali,🔴 Difficile,Entro fine anno annunceremo l'uscita definitiva dal mercato sudamericano per concentrare tutto il capitale strategico sul Nord Europa.,True,True,True,True,False
+strategia_aziendale,dati_aziendali,🔴 Difficile,L'accordo di esclusiva che firmeremo venerdì in segreto con Amazon Web Services cambierà radicalmente il nostro modello di distribuzione globale.,True,True,False,False,False
+strategia_aziendale,dati_aziendali,🔴 Difficile,La trattativa in fase embrionale con il Gruppo Ferretti ci permetterebbe di aggirare i dazi doganali previsti per il 2025: i dettagli li conosce solo il top management.,True,True,True,True,False
+strategia_aziendale,dati_aziendali,🔴 Difficile,Il board ha deciso in via ufficiosa di abbandonare il segmento B2C per trasformare gradualmente l'azienda in un fornitore puro SaaS B2B.,True,True,False,False,False
+strategia_aziendale,dati_aziendali,🔴 Difficile,"Il budget straordinario allocato per questa operazione non visibile dall'esterno ammonta a 45 milioni di euro, ma deve rimanere fuori dalle prossime trimestrali.",True,True,True,True,False
+strategia_aziendale,dati_aziendali,🔴 Difficile,"Il rebranding totale del gruppo e la nuova direzione creativa sono fissati per il 12 Ottobre, fino ad allora nessuna di queste slide deve uscire dai nostri server.",True,True,False,False,False
+strategia_aziendale,dati_aziendali,🔴 Difficile,"L'attuale CEO rassegnerà le dimissioni a sorpresa la prossima settimana, stiamo già chiudendo i termini contrattuali con Alessandro Rossi per la transizione.",True,True,True,True,False
+contratto,dati_aziendali,🟢 Facile,Il contratto di fornitura con Acme scade il 31/12/2024.,True,True,True,False,False
+contratto,dati_aziendali,🟢 Facile,NDA firmato il 01/01/2024 con il cliente.,True,True,True,False,False
+contratto,dati_aziendali,🟢 Facile,La clausola di non concorrenza è nel contratto.,True,True,True,True,False
+contratto,dati_aziendali,🟢 Facile,Il contratto prevede penali per ritardi.,True,True,False,False,False
+contratto,dati_aziendali,🟢 Facile,Accordo di servizio: valore 500.000€ annui.,True,True,True,True,False
+contratto,dati_aziendali,🟢 Facile,Il contratto di lavoro include benefit aziendali.,True,True,False,False,False
+contratto,dati_aziendali,🟢 Facile,Service agreement firmato il 15 marzo 2023.,True,True,True,False,False
+contratto,dati_aziendali,🟢 Facile,Il contratto di affitto scade il 30 giugno.,True,True,False,False,False
+contratto,dati_aziendali,🟢 Facile,Contratto quadro con il fornitore principale.,True,True,True,True,False
+contratto,dati_aziendali,🟢 Facile,L'accordo di riservatezza è stato firmato da entrambe le parti.,True,True,False,False,False
+contratto,dati_aziendali,🟡 Medio,Il contratto di fornitura con TechCorp prevede SLA del 99.9% con penali fino al 10% del valore.,True,True,False,False,False
+contratto,dati_aziendali,🟡 Medio,Il NDA firmato il 15/03/2023 vieta la divulgazione per 5 anni con danno liquidato di 100k€.,True,True,True,True,False
+contratto,dati_aziendali,🟡 Medio,La clausola di esclusiva nel contratto con il distributore copre tutta l'area EMEA fino al 2026.,True,True,True,True,False
+contratto,dati_aziendali,🟡 Medio,Il contratto di agenzia include provvigioni del 8% sulle vendite generate nella zona assegnata.,True,True,False,False,False
+contratto,dati_aziendali,🟡 Medio,L'accordo quadro con il partner prevede minimo d'acquisto di 200.000€ trimestrale.,True,True,False,False,False
+contratto,dati_aziendali,🟡 Medio,Il contratto di licenza software include restrizioni di utilizzo geografico e per settore.,True,True,True,True,False
+contratto,dati_aziendali,🟡 Medio,La clausola di change of control nel contratto si attiva in caso di acquisizione del 30%+ delle quote.,True,True,True,True,False
+contratto,dati_aziendali,🟡 Medio,Il contratto di outsourcing include clausola di riservatezza perpetua sui dati trattati.,True,True,False,False,False
+contratto,dati_aziendali,🟡 Medio,L'accordo di co-sviluppo assegna la IP congiuntamente con diritto di prelazione reciproca.,True,True,False,False,False
+contratto,dati_aziendali,🟡 Medio,La penale per risoluzione anticipata del contratto è pari a 6 mensilità del canone.,True,True,True,True,False
+contratto,dati_aziendali,🔴 Difficile,"Il contratto di fornitura con TechCorp SpA che abbiamo rinnovato tacitamente l'anno scorso prevede una penale di 50.000 euro in caso di recesso anticipato, hai i termini sottomano?",True,True,True,True,False
+contratto,dati_aziendali,🔴 Difficile,"Esiste un accordo quadro parallelo siglato con Logistica Internazionale Srl che non abbiamo mai applicato, ma che potrebbe essere rilevante se andiamo in causa.",True,True,True,True,False
+contratto,dati_aziendali,🔴 Difficile,"L'accordo commerciale che abbiamo con Banca Europea prevede uno sconto fuori listino del 22%, ma non è ancora stato formalizzato dal dipartimento legal.",True,True,True,True,False
+contratto,dati_aziendali,🔴 Difficile,"Nella bozza per la gara d'appalto ci sono dei livelli di SLA garantiti al 99.99%, sono termini che preferirei non mettere per iscritto in questa sede per evitare responsabilità legali.",True,True,True,True,False
+contratto,dati_aziendali,🔴 Difficile,"Attenzione, la versione vincolante del contratto è quella firmata dall'avvocato De Santis il 14 Maggio, non la bozza preliminare che hai allegato tu alla mail.",True,True,True,True,False
+contratto,dati_aziendali,🔴 Difficile,L'abbonamento enterprise con DataCenter Cloud X ha una clausola di rinnovo automatico a 120.000 euro annui che si attiva domani se non mandiamo la PEC di disdetta.,True,False,False,False,False
+contratto,dati_aziendali,🔴 Difficile,I termini esatti della joint venture segreta che abbiamo con il partner asiatico Xiang Industries li conosce solo il CEO e il consiglio di amministrazione.,True,True,True,True,False
+contratto,dati_aziendali,🔴 Difficile,"Il patto di non concorrenza con l'ex direttore commerciale scade nel 2027, l'accordo di cui stiamo parlando in questa conversazione è già firmato, no?",True,True,True,True,False
+contratto,dati_aziendali,🔴 Difficile,Nel contratto di distribuzione ci sono palesi clausole di esclusiva territoriale per tutto il Nord Italia che potrebbero essere contestate dall'antitrust se rese pubbliche.,True,True,True,True,False
+contratto,dati_aziendali,🔴 Difficile,Il documento di valutazione è molto pertinente ma contiene una clausola di riservatezza stringente legata al Progetto Omega che mi impedisce di citarlo apertamente.,True,True,True,True,False
+dati_cliente,dati_aziendali,🟢 Facile,Il cliente è Banca XYZ.,True,True,False,False,False
+dati_cliente,dati_aziendali,🟢 Facile,Il portafoglio clienti enterprise è riservato.,True,True,False,False,False
+dati_cliente,dati_aziendali,🟢 Facile,La lista lead è confidenziale.,True,True,True,True,False
+dati_cliente,dati_aziendali,🟢 Facile,Il cliente principale è Telecom Italia.,True,True,False,False,False
+dati_cliente,dati_aziendali,🟢 Facile,I dati del cliente Fiat non vanno divulgati.,True,True,False,False,False
+dati_cliente,dati_aziendali,🟢 Facile,Il CRM contiene dati riservati dei clienti.,True,True,False,False,False
+dati_cliente,dati_aziendali,🟢 Facile,La lista dei clienti top è sotto NDA.,True,True,True,True,False
+dati_cliente,dati_aziendali,🟢 Facile,Il profilo del cliente Amazon è confidenziale.,True,True,False,False,False
+dati_cliente,dati_aziendali,🟢 Facile,"Dati account cliente: ID 12345, nome Acme SRL.",True,True,False,False,False
+dati_cliente,dati_aziendali,🟢 Facile,Il cliente VIP con contratto da 1M€ è confidenziale.,True,False,False,False,False
+dati_cliente,dati_aziendali,🟡 Medio,"Il cliente Gruppo Mediolanum ha un contratto rinnovato per 3 anni con valore €2,4M annui.",True,True,True,True,False
+dati_cliente,dati_aziendali,🟡 Medio,La lista dei 50 lead qualificati per il Q4 include contatti del settore farmaceutico — riservata.,True,True,True,True,False
+dati_cliente,dati_aziendali,🟡 Medio,"Il tasso di churn del cliente enterprise è al 12%, dato non pubblico da non condividere.",True,True,True,True,False
+dati_cliente,dati_aziendali,🟡 Medio,Il profilo cliente 'Codice C-0042' (multinazionale farmaceutica) include dati sensibili.,True,True,False,False,False
+dati_cliente,dati_aziendali,🟡 Medio,Il portafoglio clienti del responsabile commerciale Nord include 3 account sopra i 500k€.,True,True,True,True,False
+dati_cliente,dati_aziendali,🟡 Medio,I dati del cliente hanno mostrato un lifetime value di €180.000: informazione commercialmente sensibile.,True,True,False,False,False
+dati_cliente,dati_aziendali,🟡 Medio,La lista account dormiente include ex-clienti che stiamo ricontattando in via riservata.,True,True,True,True,False
+dati_cliente,dati_aziendali,🟡 Medio,"Il database clienti contiene 45.000 record con email, telefono e storico acquisti — GDPR.",True,True,False,False,False
+dati_cliente,dati_aziendali,🟡 Medio,Il cliente LIGT SRL si aspetta l'esclusiva: accordo verbale non ancora formalizzato.,True,True,True,True,False
+dati_cliente,dati_aziendali,🟡 Medio,I dati del cliente (settore difesa) sono classificati: accesso ristretto ai soli account manager.,True,True,False,False,False
+dati_cliente,dati_aziendali,🔴 Difficile,"Il contratto con il Ministero della Difesa è stato appena siglato, ma per motivi di sicurezza opereranno nel gestionale sotto il nome in codice Cliente Zeus.",True,True,True,True,False
+dati_cliente,dati_aziendali,🔴 Difficile,"I dati nel report trimestrale sono stati anonimizzati, ma incrociando i volumi di acquisto si capisce chiaramente che il ""Cliente A"" è Esselunga.",True,True,True,True,False
+dati_cliente,dati_aziendali,🔴 Difficile,"Ho condiviso la lista clienti non anonimizzata con i consulenti di McKinsey per la loro analisi, assicurati che il dipartimento legale abbia fatto firmare l'NDA.",True,True,True,True,False
+dati_cliente,dati_aziendali,🔴 Difficile,"Stiamo producendo l'intera nuova linea cosmetica in white-label per conto di L'Oréal, ma l'accordo ci vieta categoricamente di metterlo nel nostro portfolio pubblico.",True,True,True,True,False
+dati_cliente,dati_aziendali,🔴 Difficile,"Purtroppo il cliente Ferrero ha deciso di non rinnovare l'appalto logistico da 2,5 milioni di euro, sto preparando una mail di crisi per il CEO.",True,True,True,True,False
+dati_cliente,dati_aziendali,🔴 Difficile,"Trovate il database aggiornato dei clienti VIP, inclusi i loro numeri di telefono privati, sul server aziendale nel percorso \\NAS-HR\Vendite\VIP_List_2026.xlsx.",True,True,False,False,False
+dati_cliente,dati_aziendali,🔴 Difficile,"Il nostro cliente target per l'esternalizzazione del servizio clienti è in realtà il nostro principale concorrente, Vodafone, i cui vertici stanno valutando un outsourcing segreto.",True,True,False,False,False
+dati_cliente,dati_aziendali,🔴 Difficile,"Quel gruppo bancario di cui ti ho parlato ieri in via ufficiosa, Intesa Sanpaolo, ha accettato i termini per lo sconto del 30% fuori listino.",True,True,False,False,False
+dati_cliente,dati_aziendali,🔴 Difficile,"Nel nuovo CRM i profili ad alto rischio sono cifrati, ma la chiave per leggere i dati anagrafici completi dei clienti istituzionali svizzeri si trova nel file di log.",True,True,True,True,False
+dati_cliente,dati_aziendali,🔴 Difficile,Quel singolo cliente che da solo genera il 35% del nostro fatturato annuo ha richiesto che nessuna comunicazione sensibile avvenga tramite server email in cloud.,True,True,True,True,False
+cartella_clinica,dati_sanitari,🟢 Facile,La cartella clinica del paziente n. 4521 è riservata.,True,False,False,False,False
+cartella_clinica,dati_sanitari,🟢 Facile,Medical record ID: 789.,True,False,False,False,False
+cartella_clinica,dati_sanitari,🟢 Facile,Lo storico ricoveri del paziente è nella cartella.,True,True,True,True,False
+cartella_clinica,dati_sanitari,🟢 Facile,La cartella clinica n. 00123 del paziente Rossi.,True,True,True,True,False
+cartella_clinica,dati_sanitari,🟢 Facile,"Medical file: patient #456, admitted 2023.",True,False,False,False,False
+cartella_clinica,dati_sanitari,🟢 Facile,Il dossier medico del soggetto Mario Azzurri è confidenziale.,True,True,True,True,False
+cartella_clinica,dati_sanitari,🟢 Facile,Record paziente: ID MR-2023-0001.,True,True,True,True,False
+cartella_clinica,dati_sanitari,🟢 Facile,La scheda clinica del minore è Giovanni Miglio.,True,True,True,True,False
+cartella_clinica,dati_sanitari,🟢 Facile,Cartella ospedaliera numero 987654.,True,True,True,True,False
+cartella_clinica,dati_sanitari,🟢 Facile,Il fascicolo sanitario elettronico è accessibile solo al medico curante.,True,True,True,True,False
+cartella_clinica,dati_sanitari,🟡 Medio,Il paziente con codice MR-4521 ha un'allergia severa alla penicillina documentata in cartella.,True,True,False,False,False
+cartella_clinica,dati_sanitari,🟡 Medio,La cartella clinica del sig. Rossi (n. 00789) riporta tre ricoveri nell'ultimo anno.,True,True,True,True,False
+cartella_clinica,dati_sanitari,🟡 Medio,"Medical record #1234: paziente con storia di ipertensione e diabete tipo 2, 67 anni.",True,True,True,True,False
+cartella_clinica,dati_sanitari,🟡 Medio,"Il dossier sanitario include referti di TAC, RMN e analisi ematiche degli ultimi 5 anni.",True,True,False,False,False
+cartella_clinica,dati_sanitari,🟡 Medio,Il referto allegato alla cartella n. AM-2023-0456 indica valori anomali da monitorare.,True,True,False,False,False
+cartella_clinica,dati_sanitari,🟡 Medio,"Anamnesi del paziente ID 8877: intervento chirurgico nel 2020, terapia anticoagulante in corso.",True,True,True,True,False
+cartella_clinica,dati_sanitari,🟡 Medio,La scheda di triage del paziente (codice giallo) è stata archiviata nella cartella n. PS-0099.,True,True,True,True,False
+cartella_clinica,dati_sanitari,🟡 Medio,Il FSE del paziente include la documentazione di un trattamento psichiatrico del 2019.,True,True,True,False,False
+cartella_clinica,dati_sanitari,🟡 Medio,"Dimissioni ospedaliere del 14/03/2023: cartella n. 5678, reparto cardiologia.",True,True,True,True,False
+cartella_clinica,dati_sanitari,🟡 Medio,Il paziente ha richiesto copia della propria cartella clinica completa (n. 1122) per il medico di base.,True,True,True,True,False
+cartella_clinica,dati_sanitari,🔴 Difficile,"Il paziente con ID 99482 ha ritirato gli esami istologici, purtroppo il referto conferma la diagnosi di leucemia mieloide acuta.",True,True,True,True,False
+cartella_clinica,dati_sanitari,🔴 Difficile,Nella cartella clinica di Marco Rossi ho inserito un'annotazione riservata riguardo i suoi recenti episodi di schizofrenia paranoide.,True,True,True,True,False
+cartella_clinica,dati_sanitari,🔴 Difficile,Ho mandato su WhatsApp alla caposala la prescrizione di OxyContin da 40mg per la terapia del dolore del paziente al letto 12.,True,True,True,True,False
+cartella_clinica,dati_sanitari,🔴 Difficile,"Sono arrivati i risultati del test genetico BRCA1 per la signora Bianchi, ma il primario ha chiesto di non comunicarle ancora nulla.",True,True,True,True,False
+cartella_clinica,dati_sanitari,🔴 Difficile,Ho dovuto forzare l'inserimento manuale nel gestionale perché il sistema bloccava l'aggiornamento sulla positività all'HIV rilevata ieri mattina.,True,True,True,True,False
+cartella_clinica,dati_sanitari,🔴 Difficile,L'anamnesi riguardante l'aborto spontaneo del 2021 è rimasta nell'archivio cartaceo e attualmente non risulta nel suo fascicolo sanitario elettronico.,True,True,True,True,False
+cartella_clinica,dati_sanitari,🔴 Difficile,"Per autorizzare il trasferimento nel reparto di oncologia, ricordati di far firmare il modulo al paziente, il suo codice fiscale è RSSMRA80A01H501U.",True,True,True,True,True
+cartella_clinica,dati_sanitari,🔴 Difficile,Ieri durante il turno di notte ho inviato i referti tossicologici del paziente della stanza 3 al medico di guardia usando l'email personale,True,True,True,True,False
+cartella_clinica,dati_sanitari,🔴 Difficile,"La nuova complicazione epatica non è ancora nella cartella digitale ufficiale, stiamo aspettando l'esito della biopsia fatta martedì per confermarla.",True,True,False,False,False
+cartella_clinica,dati_sanitari,🔴 Difficile,Il piano terapeutico per la dipendenza a base di metadone non è stato inserito per intero nel fascicolo principale per richiesta esplicita della famiglia.,True,True,True,True,False
+diagnosi,dati_sanitari,🟢 Facile,Diagnosi: diabete tipo 2.,True,True,False,False,False
+diagnosi,dati_sanitari,🟢 Facile,Il paziente è affetto da ipertensione.,True,True,True,True,False
+diagnosi,dati_sanitari,🟢 Facile,Diagnosed with depression.,True,True,False,False,False
+diagnosi,dati_sanitari,🟢 Facile,Il referto indica fibrillazione atriale.,True,False,False,False,False
+diagnosi,dati_sanitari,🟢 Facile,Diagnosi di celiachia confermata.,True,True,True,True,False
+diagnosi,dati_sanitari,🟢 Facile,Il soggetto ha una diagnosi di ansia generalizzata.,True,True,True,True,False
+diagnosi,dati_sanitari,🟢 Facile,Diagnosed: stage 2 breast cancer.,True,True,False,False,False
+diagnosi,dati_sanitari,🟢 Facile,Diagnosi principale: insufficienza renale cronica.,True,True,False,False,False
+diagnosi,dati_sanitari,🟢 Facile,Il paziente soffre di asma bronchiale.,True,True,True,True,False
+diagnosi,dati_sanitari,🟢 Facile,Diagnosi di artrite reumatoide.,True,True,True,True,False
+diagnosi,dati_sanitari,🟡 Medio,Il paziente ha ricevuto diagnosi di diabete mellito tipo 2 con neuropatia periferica associata.,True,False,False,False,False
+diagnosi,dati_sanitari,🟡 Medio,La diagnosi differenziale include sclerosi multipla recidivante-remittente e neuromielite ottica.,True,True,True,True,False
+diagnosi,dati_sanitari,🟡 Medio,"Referto istologico: carcinoma squamocellulare pT2N0M0, margini liberi.",True,True,False,False,False
+diagnosi,dati_sanitari,🟡 Medio,Il soggetto presenta diagnosi psichiatrica di disturbo bipolare tipo I con episodi misti.,True,True,False,False,False
+diagnosi,dati_sanitari,🟡 Medio,Diagnosi: insufficienza cardiaca congestizia NYHA classe III con FE ridotta al 35%.,True,True,True,True,False
+diagnosi,dati_sanitari,🟡 Medio,Il bambino ha ricevuto diagnosi di ADHD con componente ansiosa comorbida.,True,True,True,True,False
+diagnosi,dati_sanitari,🟡 Medio,Diagnosi di malattia di Crohn in fase attiva: coinvolgimento ileocolico documentato.,True,True,True,True,False
+diagnosi,dati_sanitari,🟡 Medio,La diagnosi oncologica indica linfoma non-Hodgkin diffuso a grandi cellule B.,True,True,True,True,False
+diagnosi,dati_sanitari,🟡 Medio,Il referto indica diagnosi di apnea ostruttiva del sonno moderata-grave (AHI 32).,True,True,True,True,False
+diagnosi,dati_sanitari,🟡 Medio,"Diagnosi finale: tubercolosi polmonare attiva, BK positivo all'espettorato.",True,True,False,False,False
+diagnosi,dati_sanitari,🔴 Difficile,"Il Dottor Neri non ha ancora comunicato ufficialmente la diagnosi al paziente, ma ci sono forti sospetti che si tratti di sclerosi multipla primaria progressiva.",True,True,True,True,False
+diagnosi,dati_sanitari,🔴 Difficile,Il risultato della biopsia epatica cambierà la diagnosi attuale di 'sospetta neoplasia' in carcinoma epatocellulare al terzo stadio.,True,True,True,True,False
+diagnosi,dati_sanitari,🔴 Difficile,"La diagnosi per la piccola Giulia Bianchi è quella che temiamo da mesi, purtroppo ora confermata dai nuovi esami del sangue: fibrosi cistica.",True,True,True,True,False
+diagnosi,dati_sanitari,🔴 Difficile,Il paziente della stanza 104 non sa ancora della diagnosi: attendiamo il consulto multidisciplinare prima di parlargli dell'Alzheimer a esordio precoce.,True,True,True,True,False
+diagnosi,dati_sanitari,🔴 Difficile,La diagnosi psichiatrica di Mario Rossi è controversa: due specialisti hanno opinioni divergenti tra disturbo bipolare di tipo I e schizofrenia affettiva.,True,True,True,True,False
+diagnosi,dati_sanitari,🔴 Difficile,Il quadro clinico del paziente con ID HOSP-8832 è compatibile con più patologie: la diagnosi definitiva richiede altri accertamenti per escludere il Lupus eritematoso sistemico.,True,True,True,True,False
+diagnosi,dati_sanitari,🔴 Difficile,"La diagnosi eziologica per la paralisi improvvisa non è ancora chiara: eziologia autoimmune vs infettiva da escludere, ma propendiamo per la Sindrome di Guillain-Barré.",True,True,True,True,False
+diagnosi,dati_sanitari,🔴 Difficile,Il paziente ha appena ricevuto una seconda diagnosi di insufficienza renale cronica che modifica radicalmente il piano terapeutico precedente a base di litio.,True,True,False,False,False
+diagnosi,dati_sanitari,🔴 Difficile,La diagnosi informale comunicata ai familiari ieri sera è molto più grave di quella scritta in cartella: stiamo gestendo un caso di sepsi meningococcica fulminante.,True,True,True,True,False
+diagnosi,dati_sanitari,🔴 Difficile,È una diagnosi in attesa di conferma genetica: sindrome sospetta ma non ancora certificata di Corea di Huntington per la madre del paziente al letto 4.,True,True,True,True,False
+terapia,dati_sanitari,🟢 Facile,Il paziente è in terapia con insulina.,True,True,False,False,False
+terapia,dati_sanitari,🟢 Facile,Chemioterapia ciclo 3.,True,True,True,True,False
+terapia,dati_sanitari,🟢 Facile,Trattamento psicologico settimanale.,True,True,False,False,False
+terapia,dati_sanitari,🟢 Facile,Terapia antibiotica in corso.,True,True,True,True,False
+terapia,dati_sanitari,🟢 Facile,Il paziente segue radioterapia.,True,False,False,False,False
+terapia,dati_sanitari,🟢 Facile,In terapia sostitutiva tiroidea.,True,False,False,False,False
+terapia,dati_sanitari,🟢 Facile,Terapia anticoagulante orale.,True,False,False,False,False
+terapia,dati_sanitari,🟢 Facile,Trattamento con immunosoppressori.,True,False,False,False,False
+terapia,dati_sanitari,🟢 Facile,In terapia intensiva dal 3 marzo.,True,True,False,False,False
+terapia,dati_sanitari,🟢 Facile,Terapia ormonale sostitutiva.,True,True,False,False,False
+terapia,dati_sanitari,🟡 Medio,Il paziente è in terapia con insulina glargine 20 UI/die + metformina 1000 mg × 2.,True,True,False,False,False
+terapia,dati_sanitari,🟡 Medio,"Ciclo 4 di chemioterapia FOLFOX: ultima somministrazione il 15 marzo, tolleranza buona.",True,True,True,True,False
+terapia,dati_sanitari,🟡 Medio,"Terapia antiipertensiva con ramipril 5 mg + amlodipina 10 mg, pressione sotto controllo.",True,True,False,False,False
+terapia,dati_sanitari,🟡 Medio,Trattamento psicologico: psicoterapia CBT settimanale in corso da 6 mesi per DOC.,True,True,True,True,False
+terapia,dati_sanitari,🟡 Medio,Il bambino è in terapia con metilfenidato 18 mg/die con rivalutazione trimestrale.,True,True,True,True,False
+terapia,dati_sanitari,🟡 Medio,Terapia biologica con adalimumab 40 mg bisettimanale per artrite psoriasica severa.,True,True,False,False,False
+terapia,dati_sanitari,🟡 Medio,Il paziente oncologico ha iniziato immunoterapia con pembrolizumab 200 mg ogni 3 settimane.,True,False,False,False,False
+terapia,dati_sanitari,🟡 Medio,"Terapia anticoagulante con warfarin: INR target 2-3, controllo mensile.",True,True,False,False,False
+terapia,dati_sanitari,🟡 Medio,Il soggetto è in terapia sostitutiva con levotiroxina 75 mcg/die a digiuno.,True,True,False,False,False
+terapia,dati_sanitari,🟡 Medio,Piano di trattamento: dialisi peritoneale domiciliare notturna 5 notti/settimana.,True,True,True,True,False
+terapia,dati_sanitari,🔴 Difficile,"Il medico ha cambiato la terapia questa settimana, sostituendo l'Eparina con il Rivaroxaban da 20mg per via dell'elevato rischio emorragico.",True,True,True,True,False
+terapia,dati_sanitari,🔴 Difficile,Il piano terapeutico concordato nell'ultima visita multidisciplinare prevede l'uso off-label di Bevacizumab per il paziente della stanza 4.,True,True,True,True,False
+terapia,dati_sanitari,🔴 Difficile,Il paziente non sta rispondendo alla terapia attuale a base di cortisone: il primario sta valutando il passaggio immediato agli immunosoppressori biologici (Infliximab).,True,True,True,True,False
+terapia,dati_sanitari,🔴 Difficile,La terapia prevede la somministrazione del farmaco sperimentale MK-3475 (Pembrolizumab) nell'ambito del trial clinico in doppio cieco sull'immunoterapia.,True,True,True,True,False
+terapia,dati_sanitari,🔴 Difficile,"Il trattamento per l'ipotiroidismo è lo stesso di prima, ma il dosaggio di Eutirox è stato aggiustato a 125 microgrammi dopo l'ultimo controllo del TSH.",True,True,True,True,False
+terapia,dati_sanitari,🔴 Difficile,Abbiamo scoperto che il signor Verdi sta seguendo una terapia alternativa a base di Iperico che sta annullando del tutto l'effetto degli antidepressivi prescritti.,True,True,True,True,False
+terapia,dati_sanitari,🔴 Difficile,La terapia con Metotrexato è stata sospesa temporaneamente a causa dei valori allarmanti delle transaminasi emersi nell'esame del sangue di ieri mattina.,True,True,True,True,False
+terapia,dati_sanitari,🔴 Difficile,Il piano terapeutico salvavita per le crisi epilettiche è quello stampato e allegato nella lettera di dimissioni che il paziente ID-4458 porta con sé.,True,True,True,True,False
+terapia,dati_sanitari,🔴 Difficile,"La terapia domiciliare con insulina rapida è gestita dai familiari, ma dal diario clinico ci siamo accorti che stanno sbagliando le unità di dosaggio serali.",True,True,True,True,False
+terapia,dati_sanitari,🔴 Difficile,Il protocollo terapeutico è diverso da quello standard: a causa della sua severa insufficienza renale abbiamo dovuto dimezzare le dosi di Vancomicina.,True,True,True,True,False
+farmaco,dati_sanitari,🟢 Facile,Il paziente prende Metformina 500mg.,True,True,True,True,False
+farmaco,dati_sanitari,🟢 Facile,Prende Xanax 0.25 mg al bisogno.,True,True,True,True,False
+farmaco,dati_sanitari,🟢 Facile,Prescribed Lisinopril 10mg daily.,True,True,True,True,False
+farmaco,dati_sanitari,🟢 Facile,Il farmaco prescritto è Amoxicillina 1g.,True,True,False,False,False
+farmaco,dati_sanitari,🟢 Facile,In terapia con Omeprazolo 20mg.,True,True,True,True,False
+farmaco,dati_sanitari,🟢 Facile,Il paziente assume Atorvastatina 40mg.,True,True,True,True,False
+farmaco,dati_sanitari,🟢 Facile,Prescrizione: Paracetamolo 1g × 3/die.,True,False,False,False,False
+farmaco,dati_sanitari,🟢 Facile,"Farmaco: Warfarin 5mg, 1 compressa/die.",True,True,True,True,False
+farmaco,dati_sanitari,🟢 Facile,Il paziente usa Ventolin spray al bisogno.,True,True,True,True,False
+farmaco,dati_sanitari,🟢 Facile,In terapia con Prednisone 25mg scalare.,True,True,True,True,False
+farmaco,dati_sanitari,🟡 Medio,Il paziente assume Metformina 1000mg × 2/die + Glipizide 5mg a colazione per il diabete.,True,True,True,True,False
+farmaco,dati_sanitari,🟡 Medio,Terapia ansiolitica: Alprazolam (Xanax) 0.5mg × 2 — non aumentare la dose senza rivalutazione.,True,True,True,True,False
+farmaco,dati_sanitari,🟡 Medio,Prescribed: Lisinopril 10mg OD per ipertensione essenziale; monitorare funzione renale.,True,True,True,True,False
+farmaco,dati_sanitari,🟡 Medio,Il paziente oncologico è in terapia con Tamoxifene 20mg/die per 5 anni (carcinoma mammario ER+).,True,True,False,False,False
+farmaco,dati_sanitari,🟡 Medio,Il bambino assume metilfenidato (Ritalin) 18mg/die a scuola: farmaco in custodia al docente.,True,True,True,True,False
+farmaco,dati_sanitari,🟡 Medio,Terapia anticoagulante: Apixaban (Eliquis) 5mg × 2/die; evitare FANS e aspirina.,True,True,True,True,False
+farmaco,dati_sanitari,🟡 Medio,Il farmaco sperimentale assegnato nell'ambito del trial è il compound XYZ-2024 (dose 100mg).,True,True,True,True,False
+farmaco,dati_sanitari,🟡 Medio,Aggiornamento terapia: sostituire Venlafaxina 75mg con Duloxetina 60mg per effetti collaterali.,True,True,True,True,False
+farmaco,dati_sanitari,🟡 Medio,"Infusione endovenosa: Rituximab 375mg/m² ogni 21 giorni, 6 cicli totali.",True,True,True,True,False
+farmaco,dati_sanitari,🟡 Medio,Terapia ormonale: Levotiroxina 100mcg/die + Selenio 200mcg per tiroidite di Hashimoto.,True,True,True,True,False
+farmaco,dati_sanitari,🔴 Difficile,"Il medico ha prescritto il Misoprostolo per indurre il parto, anche se formalmente in questo contesto è un uso off-label non standard.",True,True,True,True,False
+farmaco,dati_sanitari,🔴 Difficile,"Per contenere i costi di reparto, la farmacia ospedaliera ha sostituito l'originator Humira con il suo biosimilare Amgevita per il ciclo di questo mese.",True,True,True,True,False
+farmaco,dati_sanitari,🔴 Difficile,"Fai attenzione alla cartella, il paziente ha già avuto uno shock anafilattico documentato con l'Amoxicillina, dobbiamo assolutamente usare un macrolide.",True,True,True,True,False
+farmaco,dati_sanitari,🔴 Difficile,"Il paziente prende regolarmente il farmaco anticoagulante Coumadin ma ha iniziato ad assumere un integratore a base di Ginkgo Biloba, il rischio di emorragia interna è altissimo.",True,True,True,True,False
+farmaco,dati_sanitari,🔴 Difficile,"L'approvazione per la somministrazione di Nusinersen (Spinraza) in fascia H richiede la firma urgente del direttore sanitario, visto il costo esorbitante della terapia.",True,True,True,True,False
+farmaco,dati_sanitari,🔴 Difficile,La posologia dell'Aripiprazolo è stata ridotta da 15mg a 5mg al giorno perché nella prima settimana il paziente non tollerava la dose piena e manifestava forte acatisia.,True,True,True,True,False
+farmaco,dati_sanitari,🔴 Difficile,"Il farmaco rimborsabile che non mi ricordavo stamattina in riunione, quello che inizia per M, è il Metotrexato: lo usiamo per la sua artrite reumatoide.",True,True,True,True,False
+farmaco,dati_sanitari,🔴 Difficile,"Visto che quel dosaggio in Italia non è più in commercio, il paziente acquista regolarmente il Creon 40.000 UI per l'insufficienza pancreatica in una farmacia svizzera.",True,True,True,True,False
+farmaco,dati_sanitari,🔴 Difficile,"La terapia del dolore è stata cambiata, adesso prende qualcosa di molto più forte: Fentanyl in cerotti transdermici da 50 mcg/h, ricordati di aggiornare il registro degli stupefacenti.",True,True,True,True,False
+farmaco,dati_sanitari,🔴 Difficile,"La sua poliprescrizione mattutina include Cardicor 2.5mg, Lasix 40mg e Pantorc 20mg: ho inviato la lista in farmacia per fargli preparare i blister personalizzati settimanali.",True,True,True,True,False

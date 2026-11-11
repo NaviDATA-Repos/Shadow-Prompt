@@ -1,0 +1,23 @@
+extension,condition,timing,submit,prompts_sent,unmasked_sent,banner,box_after
+orig,ok,after_check,click,1,0,,Il mio IBAN e *** e la mia email e ***
+orig,ok,immediate,click,1,1,,Il mio IBAN e *** e la mia email e ***
+orig,ollama_unavailable,after_check,click,1,1,,Il mio IBAN e IT60X0542811101000000123456 e la mia email e m
+orig,ollama_unavailable,immediate,click,1,1,,Il mio IBAN e IT60X0542811101000000123456 e la mia email e m
+orig,inference_timeout,after_check,click,1,1,,Il mio IBAN e IT60X0542811101000000123456 e la mia email e m
+orig,invalid_output,after_check,click,1,1,,Il mio IBAN e IT60X0542811101000000123456 e la mia email e m
+orig,invalid_output,immediate,click,1,1,,Il mio IBAN e IT60X0542811101000000123456 e la mia email e m
+orig,http_error,after_check,click,1,1,,Il mio IBAN e IT60X0542811101000000123456 e la mia email e m
+orig,http_error,immediate,click,1,1,,Il mio IBAN e IT60X0542811101000000123456 e la mia email e m
+orig,ok,after_check,enter,1,0,,Il mio IBAN e *** e la mia email e ***
+orig,ollama_unavailable,after_check,enter,1,1,,Il mio IBAN e IT60X0542811101000000123456 e la mia email e m
+fc,ok,after_check,click,1,0,Prompt checked. You can send it.,Il mio IBAN e *** e la mia email e ***
+fc,ok,immediate,click,0,0,Prompt checked. You can send it.,Il mio IBAN e *** e la mia email e ***
+fc,ollama_unavailable,after_check,click,0,0,Sensitive-data protection is unavailable. Submission has been blocked.,Il mio IBAN e IT60X0542811101000000123456 e la mia email e m
+fc,ollama_unavailable,immediate,click,0,0,Sensitive-data protection is unavailable. Submission has been blocked.,Il mio IBAN e IT60X0542811101000000123456 e la mia email e m
+fc,inference_timeout,after_check,click,0,0,Sensitive-data protection is unavailable. Submission has been blocked.,Il mio IBAN e IT60X0542811101000000123456 e la mia email e m
+fc,invalid_output,after_check,click,0,0,Sensitive-data protection is unavailable. Submission has been blocked.,Il mio IBAN e IT60X0542811101000000123456 e la mia email e m
+fc,invalid_output,immediate,click,0,0,Sensitive-data protection is unavailable. Submission has been blocked.,Il mio IBAN e IT60X0542811101000000123456 e la mia email e m
+fc,http_error,after_check,click,0,0,Sensitive-data protection is unavailable. Submission has been blocked.,Il mio IBAN e IT60X0542811101000000123456 e la mia email e m
+fc,http_error,immediate,click,0,0,Sensitive-data protection is unavailable. Submission has been blocked.,Il mio IBAN e IT60X0542811101000000123456 e la mia email e m
+fc,ok,after_check,enter,1,0,Prompt checked. You can send it.,Il mio IBAN e *** e la mia email e ***
+fc,ollama_unavailable,after_check,enter,0,0,Sensitive-data protection is unavailable. Submission has been blocked.,Il mio IBAN e IT60X0542811101000000123456 e la mia email e m
